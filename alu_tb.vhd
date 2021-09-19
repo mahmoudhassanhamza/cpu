@@ -17,7 +17,9 @@ component alu is
     a, b        : in  std_logic_vector( 2 downto 0);
     op          : in  std_logic_vector( 2 downto 0);
     y         : out std_logic_vector( 2 downto 0);
-    z_f,n_f,o_f : out std_logic
+    z_f,n_f,o_f : out std_logic;
+    clk,en,reset: in std_logic
+
   );
   
 end component; 
@@ -26,6 +28,7 @@ end component;
     signal op          :   std_logic_vector( 2 downto 0);
     signal sum         :   std_logic_vector( 2 downto 0);
     signal z_f,n_f,o_f :   std_logic;
+    signal clk,en,reset:   std_logic :='0';
     type int_array is array(integer range<>) of integer; 
     constant A_values : int_array := (-1,-2,-3,-4,-5,-6,-7,0,1,2,3,4,5,6,7);
     constant B_values : int_array := (-1,-2,-3,-4,-5,-6,-7,0,1,2,3,4,5,6,7);
@@ -33,19 +36,30 @@ end component;
 
 begin
   DUT : alu 
-  port map (a,  b, op , sum, z_f, n_f, o_f);
+  port map (a,  b, op , sum, z_f, n_f, o_f,clk,en,reset);
+
+
+
+    clk <= not clk after 5 ns;
+    en <= not en after 8 ns;
+    reset  <= '1' after 200 ns;
+    reset  <= '0' after 300 ns;
     process
     begin   
     for i in A_values'range loop
-    for j in A_values'range loop
-  a <= conv_std_logic_vector(A_values(j),3);
-  b <= conv_std_logic_vector(B_values(j),3);
-  op <= conv_std_logic_vector(op_values(i),3);
-  wait for 1 ns;
-  assert (o_f = '0') report "We have an overflow " & print_number(a) & "+" & print_number(b) & "=" & print_number(sum) severity note; 
-  wait for 9 ns;
+      -- for j in A_values'range loop
 
-  end loop;
+      a <= conv_std_logic_vector(A_values(i),3);
+      b <= conv_std_logic_vector(B_values(i),3);
+      op <= conv_std_logic_vector(op_values(i),3);
+      wait for 6 ns;
+
+      assert (o_f = '0') report "We have an overflow " & print_number(a) & "+" & print_number(b) & "=" & print_number(sum) severity note; 
+      wait for 3 ns;
+
+      wait for 1 ns;
+      -- end loop;
+
   end loop;
 end process;
   
