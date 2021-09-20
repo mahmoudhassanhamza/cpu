@@ -42,8 +42,8 @@ begin
 
     clk <= not clk after 5 ns;
     en <= not en after 8 ns;
-    reset  <= '1' after 200 ns;
-    reset  <= '0' after 300 ns;
+    reset  <='1','0'after 1 ns, '1' after 200 ns,'0' after 300 ns;
+     
     process
     begin   
     for i in A_values'range loop
