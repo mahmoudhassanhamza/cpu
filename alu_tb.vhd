@@ -11,12 +11,12 @@ architecture behave of alu_tb is
 
 
 component alu is 
-  -- generic (N : integer := 3 ) ;
+  generic (N : integer := 3 ) ;
   port
   (
-    a, b        : in  std_logic_vector( 2 downto 0);
-    op          : in  std_logic_vector( 2 downto 0);
-    y         : out std_logic_vector( 2 downto 0);
+    a, b        : in  std_logic_vector( N-1 downto 0);
+    op          : in  std_logic_vector( N-1 downto 0);
+    y         : out std_logic_vector( N-1 downto 0);
     z_f,n_f,o_f : out std_logic;
     clk,en,reset: in std_logic
 
@@ -24,9 +24,9 @@ component alu is
   
 end component; 
     constant N : integer := 3;
-    signal a, b        :   std_logic_vector( 2 downto 0);
-    signal op          :   std_logic_vector( 2 downto 0);
-    signal sum         :   std_logic_vector( 2 downto 0);
+    signal a, b        :   std_logic_vector( N-1 downto 0);
+    signal op          :   std_logic_vector( N-1 downto 0);
+    signal sum         :   std_logic_vector( N-1 downto 0);
     signal z_f,n_f,o_f :   std_logic;
     signal clk,en,reset:   std_logic :='0';
     type int_array is array(integer range<>) of integer; 
@@ -42,7 +42,7 @@ begin
 
     clk <= not clk after 5 ns;
     en <= not en after 8 ns;
-    reset  <='1','0'after 1 ns, '1' after 200 ns,'0' after 300 ns;
+    reset  <='1','0'after 1 ns, '1' after 180 ns,'0' after 300 ns;
      
     process
     begin   
