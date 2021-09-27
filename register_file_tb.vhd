@@ -6,7 +6,7 @@ use ieee.std_logic_signed.all;
 use IEEE.NUMERIC_STD.ALL;
 
 entity register_file_tb is
-    constant N,M            : integer :=4;
+    constant N,M            : integer :=3;
 
 end entity;
 

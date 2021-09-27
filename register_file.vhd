@@ -7,7 +7,7 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity register_file is 
 Generic (N : integer := 3;
-M : integer:= 3);
+M : integer:= 8);
 
 port(
     WD              : in std_logic_vector (N-1 downto 0) ;
@@ -23,10 +23,7 @@ port(
 end register_file;
 
 architecture behave of register_file is 
--- type bit_vector is array(integer range <>) of bit; 
--- subtype bitN is bit_vector(3 downto 0); -- N-1
--- type bitNVector is array(natural range<>) of bitN;
--- subtype memory_type is bitNVector(3 downto 0 ); --M-1
+
 type memory_type is array(M-1 downto 0) of std_logic_vector(N-1 downto 0 );
 signal memr  : memory_type;
 begin 

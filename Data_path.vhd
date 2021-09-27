@@ -6,7 +6,7 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity Data_path is 
 Generic (N : integer := 3;
-M : integer:= 3);
+M : integer:= 8);
 port(
     D_WD              : in std_logic_vector (N-1 downto 0) ;
     D_IE              : in std_logic;
@@ -43,7 +43,7 @@ Generic (N : integer := 3);
 end component; 
 component register_file is 
 Generic (N : integer := 3;
-M : integer:= 3);
+M : integer:= 8);
 
 port(
     WD              : in std_logic_vector (N-1 downto 0) ;
@@ -61,9 +61,9 @@ signal MUX_OP      : std_logic_vector(N-1 downto 0);
 signal TEMP_SUM    : std_logic_vector(N-1 downto 0);
 signal temp_QA     : std_logic_vector(N-1 downto 0);    
 signal temp_QB     : std_logic_vector(N-1 downto 0);
-
+signal WD_TEMP     : std_logic_vector(N-1 downto 0);
 begin
-
+    WD_TEMP <= D_WD;
 MUX: process (D_IE)
 begin
     if (D_IE = '1') then
@@ -73,7 +73,7 @@ begin
     end if;
 end process;
 TRI_BUFFER: 
-process(D_OE)
+process(D_OE,TEMP_SUM)
 begin
     if (D_OE = '1') then
         D_output <= TEMP_SUM;

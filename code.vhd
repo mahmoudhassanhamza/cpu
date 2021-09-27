@@ -27,3 +27,4 @@ constant R5:regs :="101";
 constant R6:regs :="110";
 constant R7:regs :="111";
 end micro_assembly_code;
+
