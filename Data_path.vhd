@@ -29,6 +29,14 @@ end Data_path;
 
 architecture behave of Data_path is 
 
+component Clock_Divider is 
+port(   
+        clk_in  : in  std_logic;
+        clk_out : out std_logic
+);
+end component;
+
+
 component alu is 
 Generic (N : integer := 3);
   port
@@ -62,6 +70,7 @@ signal TEMP_SUM    : std_logic_vector(N-1 downto 0);
 signal temp_QA     : std_logic_vector(N-1 downto 0);    
 signal temp_QB     : std_logic_vector(N-1 downto 0);
 signal WD_TEMP     : std_logic_vector(N-1 downto 0);
+signal temp_clk    : std_logic;
 begin
     WD_TEMP <= D_WD;
 MUX: process (D_IE)
@@ -91,7 +100,7 @@ REG_FILE: register_file port map (
     RA_sig        => D_RA_sig,
     RB_sig        => D_RB_sig,
     rst           => D_rst, 
-    clk           => D_clk,
+    clk           => temp_clk,
     QA            => temp_QA,
     QB            => temp_QB
     );
@@ -104,11 +113,16 @@ ALU_block: alu port map (
         z_f      => D_z_f,
         n_f      => D_n_f,
         o_f      => D_o_f,
-        clk      => D_clk,
+        clk      => temp_clk,
         en       => ALU_EN,
         reset    => D_rst      
 
 ); 
+
+CLOCK_DIV: Clock_Divider port map (
+    clk_in      => D_clk,
+    clk_out     => temp_clk
+);
 
 
 end behave;

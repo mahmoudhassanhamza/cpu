@@ -46,6 +46,7 @@ architecture behave of Data_path_tb is
     signal D_RB_sig          :  std_logic;
     signal D_rst             :  std_logic;
     signal clk               :  std_logic:= '0';
+    signal D_CLK_OP          :  std_logic;
     signal D_output          :  std_logic_vector(N-1 downto 0);
     signal D_z_f,D_n_f,D_o_f :  std_logic;
 begin
@@ -68,7 +69,7 @@ D_z_f,
 D_n_f,
 D_o_f
 );
-clk <= not clk after 2 ns;
+clk <= not clk after 1 ns;
 process 
 begin
 
@@ -113,7 +114,7 @@ begin
     ALU_OP<= "000";
     ALU_EN <= '1';
     D_WAddr <= "--------";
-    D_write_sig <= '-';
+    D_write_sig <= '0';
     D_RA   <= conv_std_logic_vector(0,8);
     D_RB    <= conv_std_logic_vector(1,8);
     D_RA_sig   <= '1';  
@@ -129,7 +130,7 @@ begin
     D_WD        <= "---";
     D_OE        <= '0';
     ALU_OP      <= "---";
-    ALU_EN      <= '-';
+    ALU_EN      <= '0';
     D_WAddr     <= conv_std_logic_vector(2,8);
     D_write_sig <= '1';
     D_RA        <= "--------"; 
