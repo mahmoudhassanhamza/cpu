@@ -34,6 +34,7 @@ signal over_flow_add_check1,over_flow_add_check2  :std_logic;
 signal over_flow_sub_check1,over_flow_sub_check2  :std_logic;
 signal o_f_tmp                                    :std_logic;
 signal z_f_temp                                   :std_logic;
+signal INCR                                       :std_logic_vector(N-1 downto 0);
 constant ZERO                                     : std_logic_vector(N-1 downto 0 ) := (others =>'0');
 constant ONE                                      : std_logic_vector(N-1 downto 0 ) := (0=>'1', others =>'0');
 
@@ -51,7 +52,7 @@ begin
   b_dash <= not b;
   SUM1 :ripple_carry_adder port map (b_dash ,ONE, neg_b);
   SUB0 :ripple_carry_adder port map (A , neg_b ,tmp_sub);
-
+  INC  :ripple_carry_adder port map (A , ONE ,INCR);
   
   with op select tmp_sum <= 
   a               when "110",
@@ -61,7 +62,7 @@ begin
   a or b          when "011",
   tmp_sub         when "001",
   tmp_add         when "000",
-  ZERO            when others;
+  INCR            when others;
   
 
 

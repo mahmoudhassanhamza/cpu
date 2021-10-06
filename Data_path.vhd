@@ -1,8 +1,8 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
-use ieee.std_logic_signed.all;
-use IEEE.NUMERIC_STD.ALL;
+-- use ieee.std_logic_signed.all;
+-- use IEEE.NUMERIC_STD.ALL;
 
 entity Data_path is 
 Generic (N : integer := 3;
@@ -20,6 +20,8 @@ port(
     D_RA_sig          : in std_logic;
     D_RB_sig          : in std_logic;
     D_rst,D_clk       : in std_logic;
+    Bypass             : in std_logic;
+    offset            : in std_logic_vector(N-1 downto 0);
     D_output          : out std_logic_vector(N-1 downto 0);
     D_z_f,D_n_f,D_o_f : out std_logic
 );
@@ -49,6 +51,7 @@ Generic (N : integer := 3);
   );
   
 end component; 
+
 component register_file is 
 Generic (N : integer := 3;
 M : integer:= 8);
@@ -69,11 +72,15 @@ signal MUX_OP      : std_logic_vector(N-1 downto 0);
 signal TEMP_SUM    : std_logic_vector(N-1 downto 0);
 signal temp_QA     : std_logic_vector(N-1 downto 0);    
 signal temp_QB     : std_logic_vector(N-1 downto 0);
-signal WD_TEMP     : std_logic_vector(N-1 downto 0);
+signal temp_QB2    : std_logic_vector(N-1 downto 0);
 signal temp_clk    : std_logic;
+signal RA_sig_ored : std_logic;
+signal write_sig_ored : std_logic;
+signal RA_temp     : std_logic_vector(N-1 downto 0);
+signal WAddr_temp  : std_logic_vector(N-1 downto 0);
 begin
-    WD_TEMP <= D_WD;
-MUX: process (D_IE)
+
+MUX1: process (D_IE)
 begin
     if (D_IE = '1') then
         MUX_OP <= D_WD;
@@ -81,6 +88,26 @@ begin
         MUX_OP <= TEMP_SUM;
     end if;
 end process;
+BYPASSMUX: process (Bypass)
+begin
+    if (Bypass = '1') then
+        temp_QB2    <= offset;
+        RA_temp     <= (others => '1');
+        WAddr_temp  <= (others => '1');
+
+    else
+        temp_QB2    <= temp_QB;
+        RA_temp     <= D_RA;
+        WAddr_temp  <= D_WAddr;
+    end if;
+
+end process;
+
+
+
+RA_sig_ored     <= D_RA_sig or Bypass;
+write_sig_ored  <= D_write_sig or Bypass;
+
 TRI_BUFFER: 
 process(D_OE,TEMP_SUM)
 begin
@@ -94,15 +121,15 @@ end process;
 REG_FILE: register_file port map (   
     WD            => MUX_OP,
     WAddr         => D_WAddr,
-    write_sig     => D_write_sig,
-    RA            => D_RA,
+    write_sig     => write_sig_ored,
+    RA            => RA_temp,
     RB            => D_RB,  
-    RA_sig        => D_RA_sig,
+    RA_sig        => RA_sig_ored,
     RB_sig        => D_RB_sig,
     rst           => D_rst, 
     clk           => temp_clk,
     QA            => temp_QA,
-    QB            => temp_QB
+    QB            => temp_QB2
     );
 
 ALU_block: alu port map (

@@ -24,7 +24,7 @@ end register_file;
 
 architecture behave of register_file is 
 
-type memory_type is array(M-1 downto 0) of std_logic_vector(N-1 downto 0 );
+type memory_type is array(0 to M-1) of std_logic_vector(N-1 downto 0 );
 signal memr  : memory_type;
 begin 
     process (RA,RB,RA_sig,RB_sig,memr)
