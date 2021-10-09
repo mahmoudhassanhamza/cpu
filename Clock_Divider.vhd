@@ -18,7 +18,12 @@ signal reg      : std_logic_vector(26 downto 0 ) := (others => '0');
 begin 
 process (clk_in)
 begin 
+<<<<<<< HEAD
     clk_out <= reg(0); 
+=======
+    -- clk_out <= reg(26); 
+    clk_out <= clk_in;
+>>>>>>> data_path
     if rising_edge(clk_in)  then
         reg <= reg + 1;
     end if;

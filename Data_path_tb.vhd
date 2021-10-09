@@ -7,14 +7,14 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity Data_path_tb is 
 constant N            : integer :=3;
-constant M            : integer :=8;
+constant M            : integer :=2;
 
 end Data_path_tb;
 architecture behave of Data_path_tb is
 
     component Data_path is 
     Generic (N : integer := 3;
-    M : integer:= 8);
+    M : integer:=2);
     port(
         D_WD              : in std_logic_vector (N-1 downto 0) ;
         D_IE              : in std_logic;
@@ -82,10 +82,10 @@ begin
     D_OE <= '0';
     ALU_OP<= "---";
     ALU_EN <= '0';
-    D_WAddr <= conv_std_logic_vector(0,8);
+    D_WAddr <= "00";
     D_write_sig <= '1';
-    D_RA   <= "--------"; 
-    D_RB    <= "--------"; 
+    D_RA   <= "--"; 
+    D_RB    <= "--"; 
     D_RA_sig   <= '0';  
     D_RB_sig    <= '0';
     D_rst       <= '0';   
@@ -97,10 +97,10 @@ begin
     D_OE <= '0';
     ALU_OP<= "---";
     ALU_EN <= '0';
-    D_WAddr <= conv_std_logic_vector(1,8);
+    D_WAddr <= "01";
     D_write_sig <= '1';
-    D_RA   <= "--------"; 
-    D_RB    <= "--------"; 
+    D_RA   <= "--"; 
+    D_RB    <= "--"; 
     D_RA_sig   <= '0';  
     D_RB_sig    <= '0';
     D_rst       <= '0';   
@@ -113,10 +113,10 @@ begin
     D_OE <= '0';
     ALU_OP<= "000";
     ALU_EN <= '1';
-    D_WAddr <= "--------";
+    D_WAddr <= "--";
     D_write_sig <= '0';
-    D_RA   <= conv_std_logic_vector(0,8);
-    D_RB    <= conv_std_logic_vector(1,8);
+    D_RA     <= "00";
+    D_RB      <= "01";
     D_RA_sig   <= '1';  
     D_RB_sig    <= '1';
     wait for 4 ns;   
@@ -131,10 +131,10 @@ begin
     D_OE        <= '0';
     ALU_OP      <= "---";
     ALU_EN      <= '0';
-    D_WAddr     <= conv_std_logic_vector(2,8);
+    D_WAddr     <= "10"; 
     D_write_sig <= '1';
-    D_RA        <= "--------"; 
-    D_RB        <= "--------"; 
+    D_RA        <= "--"; 
+    D_RB        <= "--"; 
     D_RA_sig    <= '-';  
     D_RB_sig    <= '-';
     D_rst       <= '0';  
@@ -147,10 +147,10 @@ begin
     D_OE        <= '1';
     ALU_OP      <= "110";
     ALU_EN      <= '1';
-    D_WAddr     <= "--------";
+    D_WAddr     <= "--";
     D_write_sig <= '0';
-    D_RA        <= conv_std_logic_vector(2,8);
-    D_RB        <= "--------"; 
+    D_RA        <= "10";
+    D_RB        <= "--"; 
     D_RA_sig    <= '1';  
     D_RB_sig    <= '0';
     D_rst       <= '0';  
