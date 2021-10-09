@@ -6,7 +6,7 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity Data_path is 
 Generic (N : integer := 3;
-M : integer:= 8);
+M : integer:=2);
 port(
     D_WD              : in std_logic_vector (N-1 downto 0) ;
     D_IE              : in std_logic;
@@ -51,7 +51,7 @@ Generic (N : integer := 3);
 end component; 
 component register_file is 
 Generic (N : integer := 3;
-M : integer:= 8);
+M : integer:= 2);
 
 port(
     WD              : in std_logic_vector (N-1 downto 0) ;

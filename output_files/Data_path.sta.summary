@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'D_RB_sig'
+Slack : -4.049
+TNS   : -10.353
+
+Type  : Slow 1200mV 85C Model Setup 'D_RA_sig'
+Slack : -3.494
+TNS   : -9.331
+
+Type  : Slow 1200mV 85C Model Setup 'D_clk'
+Slack : -2.281
+TNS   : -33.924
+
+Type  : Slow 1200mV 85C Model Setup 'Clock_Divider:CLOCK_DIV|reg[26]'
+Slack : -2.181
+TNS   : -19.445
+
+Type  : Slow 1200mV 85C Model Hold 'D_clk'
+Slack : -0.106
+TNS   : -0.106
+
+Type  : Slow 1200mV 85C Model Hold 'Clock_Divider:CLOCK_DIV|reg[26]'
+Slack : 0.597
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'D_RA_sig'
+Slack : 1.636
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'D_RB_sig'
+Slack : 2.352
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'D_clk'
+Slack : -3.000
+TNS   : -37.695
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'D_RA_sig'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'D_RB_sig'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clock_Divider:CLOCK_DIV|reg[26]'
+Slack : -1.285
+TNS   : -23.130
+
+Type  : Slow 1200mV 0C Model Setup 'D_RB_sig'
+Slack : -3.639
+TNS   : -9.212
+
+Type  : Slow 1200mV 0C Model Setup 'D_RA_sig'
+Slack : -3.079
+TNS   : -8.231
+
+Type  : Slow 1200mV 0C Model Setup 'Clock_Divider:CLOCK_DIV|reg[26]'
+Slack : -1.960
+TNS   : -16.742
+
+Type  : Slow 1200mV 0C Model Setup 'D_clk'
+Slack : -1.925
+TNS   : -27.426
+
+Type  : Slow 1200mV 0C Model Hold 'D_clk'
+Slack : -0.021
+TNS   : -0.021
+
+Type  : Slow 1200mV 0C Model Hold 'Clock_Divider:CLOCK_DIV|reg[26]'
+Slack : 0.553
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'D_RA_sig'
+Slack : 1.489
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'D_RB_sig'
+Slack : 2.157
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'D_clk'
+Slack : -3.000
+TNS   : -37.695
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'D_RA_sig'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'D_RB_sig'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clock_Divider:CLOCK_DIV|reg[26]'
+Slack : -1.285
+TNS   : -23.130
+
+Type  : Fast 1200mV 0C Model Setup 'D_RB_sig'
+Slack : -1.438
+TNS   : -3.412
+
+Type  : Fast 1200mV 0C Model Setup 'D_RA_sig'
+Slack : -1.158
+TNS   : -2.881
+
+Type  : Fast 1200mV 0C Model Setup 'Clock_Divider:CLOCK_DIV|reg[26]'
+Slack : -1.125
+TNS   : -6.087
+
+Type  : Fast 1200mV 0C Model Setup 'D_clk'
+Slack : -0.632
+TNS   : -4.516
+
+Type  : Fast 1200mV 0C Model Hold 'D_clk'
+Slack : -0.225
+TNS   : -0.225
+
+Type  : Fast 1200mV 0C Model Hold 'Clock_Divider:CLOCK_DIV|reg[26]'
+Slack : 0.259
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'D_RA_sig'
+Slack : 0.698
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'D_RB_sig'
+Slack : 1.061
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'D_clk'
+Slack : -3.000
+TNS   : -31.894
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'D_RA_sig'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'D_RB_sig'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clock_Divider:CLOCK_DIV|reg[26]'
+Slack : -1.000
+TNS   : -18.000
+
+------------------------------------------------------------
