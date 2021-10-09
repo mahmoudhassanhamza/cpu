@@ -3,6 +3,8 @@
 *.mti
 *.mpf
 *.wlf
+*.qpf
+*.qws
 vsim.wlf
 wlft3xdshm
 db
