@@ -5,3 +5,7 @@
 *.wlf
 vsim.wlf
 db
+*.qpf
+*.qsf
+wlft3xdshm
+wlftx6vbf0
