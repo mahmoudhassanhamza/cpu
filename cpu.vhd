@@ -59,6 +59,7 @@ end component;
     signal M_instr_sig                  : Minstruction;
     signal DOUT_temp                    : std_logic_vector (N-1 downto 0 );
     signal SE_DIN                       : std_logic_vector (N-1 downto 0 );
+    signal SE_DIN_TEMP                  : std_logic_vector (N-1 downto 0 );
     signal SE_OFFSET                    : std_logic_vector (N-1 downto 0 );
     signal L_z,L_n,L_o                  : std_logic;
     signal Z_F_temp,N_F_temp,O_F_temp   : std_logic;
@@ -76,13 +77,17 @@ begin
         end if;
     -- end if;
 end process;
+
 InputMUX:
-process (Din)
+process (Din,reset,clk)
 begin
     if (IR(15 downto 12 ) = "1000") then
+        SE_DIN_TEMP <= Din;
         else
+        SE_DIN_TEMP <= SE_DIN;
     end if;
 end process;
+
 UProgramCounter:
 process (clk,reset)
 begin
@@ -141,7 +146,7 @@ DataPath:   Data_path
 Generic map (N => N , M => M )
 port map
 (
-    D_WD            => SE_DIN ,
+    D_WD            => SE_DIN_TEMP ,
     D_IE            => M_instr_sig.IE,
     D_OE            => M_instr_sig.OE,
     ALU_OP          => M_instr_sig.alu_op,
