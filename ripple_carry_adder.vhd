@@ -1,13 +1,13 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
-
+use work.code.all;
 
 entity ripple_carry_adder is 
-
+generic (N : integer);
   port(
-    A , B    : in   std_logic_vector(2 downto 0);
-    sum      : out  std_logic_vector(2 downto 0)
+    A , B    : in   std_logic_vector(N-1 downto 0);
+    sum      : out  std_logic_vector(N-1 downto 0)
   );
   
 end ripple_carry_adder;
@@ -15,6 +15,7 @@ end ripple_carry_adder;
 architecture structure of ripple_carry_adder is 
 
 component full_adder is
+  
   port(
     a,b,cin   : in std_logic;
     cout,sum  : out std_logic
@@ -23,12 +24,12 @@ component full_adder is
 end component;
 
 
-signal carry_out : std_logic_vector(2 downto 0);
+signal carry_out : std_logic_vector(N-1 downto 0);
 signal cin : std_logic := '0';
 begin 
   
   
-  G0: for i in A'range generate
+  G0: for i in N-1 downto 0 generate
     
   G1: if i = 0 generate
        F0: full_adder port map (a(i),b(i),cin,carry_out(i),sum(i));

@@ -5,19 +5,22 @@ use ieee.std_logic_arith.all;       -- defines conv_std_logic_vector and conv_in
 use std.TEXTIO.all;
 library modelsim_lib;
 use modelsim_lib.util.all;          -- defines the spy_signal procedure
-use work.assembly_instructions.all; -- defines all assembly instruction codes used by the processor
+use work.code.all; -- defines all assembly instruction codes used by the processor
+entity test is
+
+end entity;
 architecture test_cpu_advanced of test is
   component cpu
     generic(N:integer;
             M:integer);
     port(clk,reset:IN std_logic;
          Din:IN std_logic_vector(N-1 downto 0);
-         address:OUT std_logic_vector(N-1 downto 0);
+         address:OUT std_logic_vector(M-1 downto 0);
          Dout:OUT std_logic_vector(N-1 downto 0);
          RW:OUT std_logic);
   end component;
   constant N:integer:=16;
-  constant M:integer:=8;
+  constant M:integer:=3;
   signal clk,reset:std_logic:='0';
   signal Din:std_logic_vector(N-1 downto 0);
   signal address:std_logic_vector(N-1 downto 0);
@@ -63,7 +66,7 @@ spy_process: -- Spy process connects signals inside the hierarchy to signals in 
    process
    begin
        init_signal_spy("/test/dut/upc","/t_upc",1);
-       init_signal_spy("/test/dut/dp/rf_mem","/t_rf_mem",1);
+       init_signal_spy("/test/dut/DataPath/REG_FILE/rf_mem","/t_rf_mem",1);
        --init_signal_spy("/test/dut/z_flag","/t_z",1);
        --init_signal_spy("/test/dut/n_flag","/t_n",1);
        --init_signal_spy("/test/dut/o_flag","/t_o",1);
@@ -73,7 +76,7 @@ spy_process: -- Spy process connects signals inside the hierarchy to signals in 
        wait;
    end process spy_process;
 
-   DUT:cpu generic map(N=>16,M=>8)
+   DUT:cpu generic map(N=>16,M=>3)
 		   port map(clk=>clk,
 					reset=>reset,
 					Din=>Din,
@@ -120,7 +123,7 @@ test_all_instructions:
 		   assert(address="0000000000000000") report "Memory Address reset does not work" severity failure;
 		   assert(false) report "test_reset OK" severity note;
        i(Din,LDI,R0,"000000001");
-	       assert(t_rf_mem(0)="000000000000001") report "LDI does not work" severity failure;
+	       assert(t_rf_mem(0)="0000000000000001") report "LDI does not work" & integer'image(conv_integer(unsigned(t_rf_mem(0)))) severity failure;
 		   assert(address="0000000000000001") report "R7 - PC Address increment does not work";
 		   report "LDI works OK";
        i(Din,LDI,R1,"100000001");

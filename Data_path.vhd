@@ -3,10 +3,12 @@ use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
 -- use ieee.std_logic_signed.all;
 -- use IEEE.NUMERIC_STD.ALL;
+use work.code.all;
+
 
 entity Data_path is 
-Generic (N : integer := 3;
-M : integer:=2);
+Generic (N : integer;
+M : integer);
 port(
     D_WD              : in std_logic_vector (N-1 downto 0) ;
     D_IE              : in std_logic;
@@ -20,7 +22,10 @@ port(
     D_RA_sig          : in std_logic;
     D_RB_sig          : in std_logic;
     D_rst,D_clk       : in std_logic;
-    Bypass             : in std_logic;
+    BypassB           : in std_logic;
+    BypassA           : in std_logic;
+    BypassC           : in std_logic;
+    BypassD           : in std_logic;
     offset            : in std_logic_vector(N-1 downto 0);
     D_output          : out std_logic_vector(N-1 downto 0);
     D_z_f,D_n_f,D_o_f : out std_logic
@@ -40,11 +45,11 @@ end component;
 
 
 component alu is 
-Generic (N : integer := 3);
+Generic (N : integer );
   port
   (
     a, b        : in  std_logic_vector( N-1 downto 0);
-    op          : in  std_logic_vector( N-1 downto 0);
+    op          : in  std_logic_vector( 2 downto 0);
     y           : out std_logic_vector( N-1 downto 0);
     z_f,n_f,o_f : out std_logic;
     clk,en,reset: in std_logic
@@ -53,8 +58,8 @@ Generic (N : integer := 3);
 end component; 
 
 component register_file is 
-Generic (N : integer := 3;
-M : integer:= 2);
+Generic (N : integer;
+M : integer);
 
 port(
     WD              : in std_logic_vector (N-1 downto 0) ;
@@ -68,19 +73,21 @@ port(
     QA,QB           : out std_logic_vector(N-1 downto 0)
 );
 end component;
-signal MUX_OP      : std_logic_vector(N-1 downto 0);
-signal TEMP_SUM    : std_logic_vector(N-1 downto 0);
-signal temp_QA     : std_logic_vector(N-1 downto 0);    
-signal temp_QB     : std_logic_vector(N-1 downto 0);
-signal temp_QB2    : std_logic_vector(N-1 downto 0);
-signal temp_clk    : std_logic;
-signal RA_sig_ored : std_logic;
+signal MUX_OP         : std_logic_vector(N-1 downto 0);
+signal TEMP_SUM       : std_logic_vector(N-1 downto 0);
+signal temp_QA        : std_logic_vector(N-1 downto 0);    
+signal temp_QB        : std_logic_vector(N-1 downto 0);
+signal temp_QB2       : std_logic_vector(N-1 downto 0);
+signal temp_QA2       : std_logic_vector(N-1 downto 0);
+signal temp_clk       : std_logic;
+signal RA_sig_ored    : std_logic;
 signal write_sig_ored : std_logic;
-signal RA_temp     : std_logic_vector(N-1 downto 0);
-signal WAddr_temp  : std_logic_vector(N-1 downto 0);
+signal D_output1      : std_logic_vector(N-1 downto 0);
+signal RA_temp        : std_logic_vector(M-1 downto 0);
+signal WAddr_temp     : std_logic_vector(M-1 downto 0);
 begin
 
-MUX1: process (D_IE)
+MUX1: process (D_IE,D_WD,TEMP_SUM)
 begin
     if (D_IE = '1') then
         MUX_OP <= D_WD;
@@ -88,39 +95,64 @@ begin
         MUX_OP <= TEMP_SUM;
     end if;
 end process;
-BYPASSMUX: process (Bypass)
+BYPASSMUXB: process (BypassB,D_clk,offset,temp_QB,D_RA,D_WAddr)
 begin
-    if (Bypass = '1') then
+    if (BypassB = '1') then
         temp_QB2    <= offset;
         RA_temp     <= (others => '1');
-        WAddr_temp  <= (others => '1');
-
     else
         temp_QB2    <= temp_QB;
         RA_temp     <= D_RA;
+    end if;
+
+end process;
+BYPASSMUXA: process (BypassA,offset,temp_QA)
+begin
+    if (BypassA = '1') then
+        WAddr_temp <= (others => '1');
+    else
         WAddr_temp  <= D_WAddr;
     end if;
 
 end process;
 
+BYPASSMUXC:process(temp_QA,D_output1,BypassC)
+begin
+    if (BypassC = '1' ) then
+        D_output <= temp_QA;
+        else 
+        D_output <= D_output1;
+    end if;
+end process;
+
+BYPASSMUXD:process(temp_QA,D_output1,BypassD)
+begin
+    if (BypassD = '1' ) then
+        D_output <= temp_QB;
+        else 
+        D_output <= D_output1;
+    end if;
+end process;
 
 
-RA_sig_ored     <= D_RA_sig or Bypass;
-write_sig_ored  <= D_write_sig or Bypass;
+RA_sig_ored     <= D_RA_sig or BypassB;
+write_sig_ored  <= D_write_sig ;
 
 TRI_BUFFER: 
 process(D_OE,TEMP_SUM)
 begin
     if (D_OE = '1') then
-        D_output <= TEMP_SUM;
+        D_output1 <= TEMP_SUM;
         else
-        D_output <= (others => 'Z');
+        D_output1 <= (others => 'Z');
     end if;
 end process;
 
-REG_FILE: register_file port map (   
+REG_FILE: register_file 
+Generic map( N  => N , M => M)
+port map (   
     WD            => MUX_OP,
-    WAddr         => D_WAddr,
+    WAddr         => WAddr_temp,
     write_sig     => write_sig_ored,
     RA            => RA_temp,
     RB            => D_RB,  
@@ -129,12 +161,14 @@ REG_FILE: register_file port map (
     rst           => D_rst, 
     clk           => temp_clk,
     QA            => temp_QA,
-    QB            => temp_QB2
+    QB            => temp_QB
     );
 
-ALU_block: alu port map (
+ALU_block: alu 
+Generic map( N  => N )
+port map (
         a        => temp_QA,
-        b        => temp_QB,
+        b        => temp_QB2,
         op       => ALU_OP,
         y        => TEMP_SUM,
         z_f      => D_z_f,

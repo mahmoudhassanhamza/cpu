@@ -2,12 +2,12 @@
 library ieee;
 use ieee.std_logic_1164.all;
 -- use ieee.std_logic_arith.all; DONOT USE THEM AGAIN 
--- use ieee.std_logic_signed.all;
+-- use ieee.std_logic_signed.all;DONOT USE THEM AGAIN 
 use IEEE.NUMERIC_STD.ALL;
 
 entity register_file is 
-Generic (N : integer := 3;
-M : integer:=2);
+Generic (N : integer ;
+M : integer);
 
 port(
     WD              : in std_logic_vector (N-1 downto 0) ;
@@ -24,21 +24,17 @@ end register_file;
 
 architecture behave of register_file is 
 
-<<<<<<< HEAD
-type memory_type is array(0 to M-1) of std_logic_vector(N-1 downto 0 );
-=======
-type memory_type is array(2**M-1 downto 0) of std_logic_vector(N-1 downto 0 );
->>>>>>> data_path
-signal memr  : memory_type;
+type memory_type is array(0 to 2**M-1) of std_logic_vector(N-1 downto 0 );
+signal rf_mem  : memory_type;
 begin 
-    process (RA,RB,RA_sig,RB_sig,memr)
+    process (RA,RB,RA_sig,RB_sig,rf_mem)
     begin
 
         if(RA_sig = '1' ) then   
-             QA <= memr(to_integer(UNSIGNED (RA)));
+             QA <= rf_mem(to_integer(UNSIGNED (RA)));
         end if;
         if(RB_sig = '1') then
-            QB <= memr(to_integer(UNSIGNED (RB)));
+            QB <= rf_mem(to_integer(UNSIGNED (RB)));
         end if;
 
     end process;
@@ -47,10 +43,10 @@ begin
     begin
 
         if (rst = '1') then
-            memr <= (others => (others => '0') );
+            rf_mem <= (others => (others => '0') );
         elsif  rising_edge(clk) then
             if (write_sig = '1') then
-                memr (to_integer(UNSIGNED (WAddr))) <= WD;
+                rf_mem (to_integer(UNSIGNED (WAddr))) <= WD;
             end if;
 
         end if;

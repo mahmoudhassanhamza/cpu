@@ -2,11 +2,12 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
 use ieee.std_logic_misc.or_reduce;
+use work.code.all;
 
 
 
 entity alu is 
-   generic (N : integer  := 3) ;
+   generic (N : integer ) ;
   port
   (
     a, b        : in  std_logic_vector( N-1 downto 0);
@@ -22,7 +23,7 @@ end alu;
 architecture structure of alu is 
 
 component ripple_carry_adder is 
-
+generic (N : integer);
   port(
     A , B    : in   std_logic_vector(N-1 downto 0);
     sum      : out  std_logic_vector(N-1 downto 0)
@@ -43,16 +44,16 @@ begin
   MULTI_INPUT_OR:  
   z_f_temp <= or_reduce(tmp_sum);
     
-  over_flow_add_check1 <= (not a(N-1)) and (not b(N-1)) and tmp_sum(N-1) and (not op(0)) and (not op(1)) and (not op(N-1));
-  over_flow_add_check2 <= ( a(N-1)) and ( b(N-1)) and (not tmp_sum(N-1)) and (not op(0)) and (not op(1)) and (not op(N-1));
-  over_flow_sub_check1 <= (not a(N-1)) and  b(N-1) and tmp_sum(N-1) and (not op(0)) and (not op(1)) and (op(N-1));
-  over_flow_sub_check2 <= ( a(N-1)) and  (not b(N-1)) and (not tmp_sum(N-1)) and (not op(0)) and (not op(1)) and (op(N-1));
+  over_flow_add_check1 <= (not a(N-1)) and (not b(N-1)) and tmp_sum(N-1) and (not op(0)) and (not op(1)) and (not op(2));
+  over_flow_add_check2 <= ( a(N-1)) and ( b(N-1)) and (not tmp_sum(N-1)) and (not op(0)) and (not op(1)) and (not op(2));
+  over_flow_sub_check1 <= (not a(N-1)) and  b(N-1) and tmp_sum(N-1) and (not op(0)) and (not op(1)) and (op(2));
+  over_flow_sub_check2 <= ( a(N-1)) and  (not b(N-1)) and (not tmp_sum(N-1)) and (not op(0)) and (not op(1)) and (op(2));
   o_f_tmp <= over_flow_add_check1 or over_flow_add_check2 or over_flow_sub_check1 or over_flow_sub_check2;
-  SUM0 : ripple_carry_adder port map (A , B ,tmp_add);
+  SUM0 : ripple_carry_adder Generic map (N=>N) port map (A , B ,tmp_add);
   b_dash <= not b;
-  SUM1 :ripple_carry_adder port map (b_dash ,ONE, neg_b);
-  SUB0 :ripple_carry_adder port map (A , neg_b ,tmp_sub);
-  INC  :ripple_carry_adder port map (A , ONE ,INCR);
+  SUM1 :ripple_carry_adder Generic map (N=>N) port map (b_dash ,ONE, neg_b);
+  SUB0 :ripple_carry_adder Generic map (N=>N) port map (A , neg_b ,tmp_sub);
+  INC  :ripple_carry_adder Generic map (N=>N) port map (A , ONE ,INCR);
   
   with op select tmp_sum <= 
   a               when "110",
@@ -69,7 +70,7 @@ begin
   process (reset, clk) 
   begin
     if reset = '1' then 
-      y   <= "000";
+      y   <= (others => '0');
       z_f <= '1';
       n_f <= '0';
       o_f <= '0';
