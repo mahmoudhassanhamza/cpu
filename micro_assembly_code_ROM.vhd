@@ -13,7 +13,7 @@ port (
     M_instr      : out Minstruction
 );
 end micro_assembly_code_ROM;
-
+---wei-heng test---
 architecture behave of micro_assembly_code_ROM is
    -- IE = OE = ALU_OP
    --ALU_EN = D_write_sig = D_RA_sig

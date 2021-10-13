@@ -4,1612 +4,1612 @@ K3
 cModel Technology
 Z0 dC:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\vhdl_labs
 <<<<<<< HEAD
-w1633508316
-Z1 =======
-Z2 w1633520796
-Z3 dC:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\vhdl_labs
-<<<<<<< HEAD
-R1
-Z4 !s108 1633524336.379000
-Z5 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/alu.vhd|
-Z6 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/alu.vhd|
+Z1 !s108 1633514725.251000
+Z2 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/ripple_carry_adder_tb.vhd|
+Z3 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/ripple_carry_adder_tb.vhd|
+Z4 =======
+Z5 !s108 1633524336.906000
+R2
 R3
-!s108 1633514724.816000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\alu.vhd|
-!s107 C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\alu.vhd|
+Z6 dC:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\vhdl_labs
 <<<<<<< HEAD
 R1
-Z7 !s108 1633524336.470000
+R2
 R3
-!s108 1633514724.887000
-<<<<<<< HEAD
-w1633277137
-R1
-w1633530863
+R4
+R5
+R2
 R3
+R6
 <<<<<<< HEAD
-R1
-Z8 !s108 1633530877.803000
-R3
-!s108 1633514725.779000
-!i10b 1
+Z7 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/ripple_carry_adder_tb.vhd
+Z8 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/ripple_carry_adder_tb.vhd
+R4
+R7
+R8
+R6
 <<<<<<< HEAD
-Z9 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider_tb.vhd
-Z10 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider_tb.vhd
-R1
+Z9 w1632060103
+R4
 R9
-R10
-R3
+R6
 <<<<<<< HEAD
-Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider_tb.vhd|
-Z12 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider_tb.vhd|
-R1
-Z13 !s108 1633524337.550000
+Z10 !s108 1633514725.176000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/ripple_carry_adder.vhd|
+Z12 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/ripple_carry_adder.vhd|
+R4
+Z13 !s108 1633524336.824000
 R11
 R12
-R3
-!s108 1633514725.854000
+R6
 <<<<<<< HEAD
-R3
+R10
+R11
+R12
+R4
+R13
+R11
+R12
+R6
 <<<<<<< HEAD
-8C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\code.vhd
-FC:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\code.vhd
-l0
-L6
-VF2Yh=N<^_fCej=7V^zRan1
-Z14 OV;C;10.1d;51
-32
-Z15 o-work work -2002 -explicit -O0
-Z16 tExplicit 1
-R1
-Z17 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Data_path.vhd
-Z18 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Data_path.vhd
-l0
-L7
-VXoJG[Q5R7P?XmSdZ0jH=?0
+Z14 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/ripple_carry_adder.vhd
+Z15 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/ripple_carry_adder.vhd
+R4
 R14
-32
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Data_path.vhd|
-Z20 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Data_path.vhd|
 R15
-R16
-R3
-!s100 eS2bjL>UVeDk]N=YJ?84_3
-!s108 1633524804.430000
-!s100 jk?mLJmiGDSD[<bBKh;HL3
+R6
 <<<<<<< HEAD
-Z21 DEx4 work 3 cpu 0 22 IX_fL[knm6:UV:KhLo:ck1
+Z16 w1631397516
+R4
+R16
+R6
+<<<<<<< HEAD
+Z17 !s108 1633514725.424000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/register_file_tb.vhd|
+Z19 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/register_file_tb.vhd|
+R4
+Z20 !s108 1633524337.098000
+R18
+R19
+R6
+<<<<<<< HEAD
+R17
+R18
+R19
+R4
+R20
+R18
+R19
+R6
+<<<<<<< HEAD
+Z21 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/register_file_tb.vhd
+Z22 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/register_file_tb.vhd
+R4
+R21
+R22
+R6
+<<<<<<< HEAD
+V9No3:J_Ba>GH_1j;lh7dM0
+Z23 OV;C;10.1d;51
+32
+Z24 !s108 1633514725.347000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/register_file.vhd|
+Z26 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/register_file.vhd|
+Z27 o-work work -2002 -explicit -O0
+Z28 tExplicit 1
+R6
+!s100 k[z]EjB2e2?63lO3hF4M?3
+!i10b 1
+<<<<<<< HEAD
+R24
+R25
+R26
+R4
+R6
+!s108 1633525872.590000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\register_file.vhd|
+!s107 C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\register_file.vhd|
+<<<<<<< HEAD
+Z29 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/register_file.vhd
+Z30 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/register_file.vhd
+R4
+8C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\register_file.vhd
+FC:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\register_file.vhd
+R6
+<<<<<<< HEAD
+w1633379683
+R4
+w1633525798
+R6
+<<<<<<< HEAD
+Z31 !s108 1633514724.973000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/debug_std_logic_1164.vhd|
+Z33 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/debug_std_logic_1164.vhd|
+R4
+Z34 !s108 1633524336.563000
+R32
+R33
+R6
+<<<<<<< HEAD
+R31
+R32
+R33
+R4
+R34
+R32
+R33
+R6
+<<<<<<< HEAD
+Z35 w1632070364
+Z36 dC:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2
+Z37 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/debug_std_logic_1164.vhd
+Z38 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/debug_std_logic_1164.vhd
+R4
+R35
+R36
+R37
+R38
+<<<<<<< HEAD
+R6
+!s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/code.vhd|
+!s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/code.vhd|
+!s108 1633277113.845000
+<<<<<<< HEAD
+Z39 !s108 1633514725.090000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/full_adder_tb.vhd|
+Z41 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/full_adder_tb.vhd|
+R4
+R40
+R41
+R6
+!s108 1633524336.740000
+<<<<<<< HEAD
+Z42 !s108 1633514725.034000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/full_adder.vhd|
+Z44 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/full_adder.vhd|
+R4
+R43
+R44
+R6
+!s108 1633524336.658000
+<<<<<<< HEAD
+DEx4 work 12 data_path_tb 0 22 [F=A1KXjF^82bmMd[mO<G0
+l52
+L13
+VK^IjAD?mX]7[>V]>>UO7C0
+R23
+32
+Z45 !s108 1633514725.712000
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Data_path_tb.vhd|
+Z47 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Data_path_tb.vhd|
+R27
+R28
+R4
+Z48 DEx4 work 12 data_path_tb 0 22 BA]zXg5b1CW@SRU9]HRBe3
+l52
+L13
+Z49 Vniz;cX5QOSF?OY[j;<C8c0
+R23
+32
+Z50 !s108 1633530873.680000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\Data_path_tb.vhd|
+Z52 !s107 C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\Data_path_tb.vhd|
+R27
+R28
+R6
+Z53 !s100 AD5FHejdGMQU;gC4e9^k02
+!s100 i3SJM9Kcif_^57W[LSM=U3
+<<<<<<< HEAD
+8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Data_path_tb.vhd
+FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Data_path_tb.vhd
+l0
+L8
+V[F=A1KXjF^82bmMd[mO<G0
+R23
+32
+R45
+R46
+R47
+R27
+R28
+R4
+8C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\Data_path_tb.vhd
+FC:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\Data_path_tb.vhd
+l0
+L8
+Z54 VBA]zXg5b1CW@SRU9]HRBe3
+R23
+32
+R50
+R51
+R52
+R27
+R28
+R6
+Z55 !s100 FK:9DQHJA8gIAE9UfKMU>0
+!s100 4KTUWm1zAf79>k`=koSkV0
+<<<<<<< HEAD
+Z56 DEx4 work 3 cpu 0 22 IX_fL[knm6:UV:KhLo:ck1
 l64
 L20
 VIgG3BBJiez]KI66QP24iK3
-R14
+R23
 32
-R15
-R16
-R3
+R27
+R28
+R6
 !s108 1633517593.724000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\cpu.vhd|
 !s107 C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\cpu.vhd|
 !s100 ::o@nZZk;MGXazm7UIUg20
 !i10b 1
 <<<<<<< HEAD
-Z22 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Data_path_tb.vhd
-Z23 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Data_path_tb.vhd
+8C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\code.vhd
+FC:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\code.vhd
 l0
-L8
-V[F=A1KXjF^82bmMd[mO<G0
-R14
+L6
+VF2Yh=N<^_fCej=7V^zRan1
+R23
 32
-Z24 !s108 1633514725.712000
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Data_path_tb.vhd|
-Z26 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Data_path_tb.vhd|
-R15
-R16
-R1
-8C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\Data_path_tb.vhd
-FC:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\Data_path_tb.vhd
-l0
-L8
-Z27 VBA]zXg5b1CW@SRU9]HRBe3
-R14
-32
-Z28 !s108 1633530873.680000
-Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\Data_path_tb.vhd|
-Z30 !s107 C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\Data_path_tb.vhd|
-R15
-R16
-R3
-Z31 !s100 FK:9DQHJA8gIAE9UfKMU>0
-!s100 4KTUWm1zAf79>k`=koSkV0
-<<<<<<< HEAD
-DEx4 work 12 data_path_tb 0 22 [F=A1KXjF^82bmMd[mO<G0
-l52
-L13
-VK^IjAD?mX]7[>V]>>UO7C0
-R14
-32
-R24
-R25
-R26
-R15
-R16
-R1
-Z32 DEx4 work 12 data_path_tb 0 22 BA]zXg5b1CW@SRU9]HRBe3
-l52
-L13
-Z33 Vniz;cX5QOSF?OY[j;<C8c0
-R14
-32
+R27
 R28
-R29
-R30
-R15
-R16
-R3
-Z34 !s100 AD5FHejdGMQU;gC4e9^k02
-!s100 i3SJM9Kcif_^57W[LSM=U3
-<<<<<<< HEAD
-Z35 !s108 1633514725.034000
-Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/full_adder.vhd|
-Z37 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/full_adder.vhd|
-R1
-R36
-R37
-R3
-!s108 1633524336.658000
-<<<<<<< HEAD
-Z38 !s108 1633514725.090000
-Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/full_adder_tb.vhd|
-Z40 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/full_adder_tb.vhd|
-R1
-R39
-R40
-R3
-!s108 1633524336.740000
-<<<<<<< HEAD
-R3
-Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/code.vhd|
-Z42 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/code.vhd|
-!s108 1633277113.845000
-<<<<<<< HEAD
-Z43 w1632070364
-Z44 dC:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2
-Z45 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/debug_std_logic_1164.vhd
-Z46 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/debug_std_logic_1164.vhd
-R1
-R43
-R44
-R45
-R46
-<<<<<<< HEAD
-Z47 !s108 1633514724.973000
-Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/debug_std_logic_1164.vhd|
-Z49 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/debug_std_logic_1164.vhd|
-R1
-Z50 !s108 1633524336.563000
-R48
-R49
-R3
-<<<<<<< HEAD
-R47
-R48
-R49
-R1
-R50
-R48
-R49
-R3
-<<<<<<< HEAD
-w1633379683
-R1
-w1633525798
-R3
-<<<<<<< HEAD
-Z51 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/register_file.vhd
-Z52 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/register_file.vhd
-R1
-8C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\register_file.vhd
-FC:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\register_file.vhd
-R3
-<<<<<<< HEAD
-Z53 !s108 1633514725.347000
-Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/register_file.vhd|
-Z55 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/register_file.vhd|
-R1
-R3
-!s108 1633525872.590000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\register_file.vhd|
-!s107 C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\register_file.vhd|
-<<<<<<< HEAD
-V9No3:J_Ba>GH_1j;lh7dM0
-R14
-32
-R53
-R54
-R55
-R15
-R16
-R3
-!s100 k[z]EjB2e2?63lO3hF4M?3
-!i10b 1
-<<<<<<< HEAD
-Z56 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/register_file_tb.vhd
-Z57 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/register_file_tb.vhd
-R1
-R56
-R57
-R3
-<<<<<<< HEAD
-Z58 !s108 1633514725.424000
-Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/register_file_tb.vhd|
-Z60 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/register_file_tb.vhd|
-R1
-Z61 !s108 1633524337.098000
-R59
-R60
-R3
-<<<<<<< HEAD
-R58
-R59
-R60
-R1
-R61
-R59
-R60
-R3
-<<<<<<< HEAD
-Z62 w1631397516
-R1
-R62
-R3
-<<<<<<< HEAD
-Z63 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/ripple_carry_adder.vhd
-Z64 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/ripple_carry_adder.vhd
-R1
-R63
-R64
-R3
-<<<<<<< HEAD
-Z65 !s108 1633514725.176000
-Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/ripple_carry_adder.vhd|
-Z67 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/ripple_carry_adder.vhd|
-R1
-Z68 !s108 1633524336.824000
-R66
-R67
-R3
-<<<<<<< HEAD
-R65
-R66
-R67
-R1
-R68
-R66
-R67
-R3
-<<<<<<< HEAD
-Z69 w1632060103
-R1
-R69
-R3
-<<<<<<< HEAD
-Z70 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/ripple_carry_adder_tb.vhd
-Z71 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/ripple_carry_adder_tb.vhd
-R1
-R70
-R71
-R3
-<<<<<<< HEAD
-Z72 !s108 1633514725.251000
-Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/ripple_carry_adder_tb.vhd|
-Z74 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/ripple_carry_adder_tb.vhd|
-R1
-Z75 !s108 1633524336.906000
-R73
-R74
-R3
-<<<<<<< HEAD
-R72
-R73
-R74
-R1
-R75
-R73
-R74
-R3
->>>>>>> data_path
-Z76 DPx8 synopsys 10 attributes 0 22 J^T`lPA_8_J<l8kQiVE]>2
-Z77 DPx4 ieee 14 std_logic_misc 0 22 >dU:RInm^_6_mBJ^<6QGY2
-Z78 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
-Z79 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
-Z80 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-R44
-Z81 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/alu.vhd
-Z82 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/alu.vhd
+R4
+Z57 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Data_path.vhd
+Z58 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Data_path.vhd
 l0
-L8
-V7N>G_j3;94f_IPfALG]^R2
-R14
+L7
+VXoJG[Q5R7P?XmSdZ0jH=?0
+R23
+32
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Data_path.vhd|
+Z60 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Data_path.vhd|
+R27
+R28
+R6
+!s100 eS2bjL>UVeDk]N=YJ?84_3
+!s108 1633524804.430000
+!s100 jk?mLJmiGDSD[<bBKh;HL3
+<<<<<<< HEAD
+R6
+<<<<<<< HEAD
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider_tb.vhd|
+Z62 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider_tb.vhd|
+R4
+Z63 !s108 1633524337.550000
+R61
+R62
+R6
+!s108 1633514725.854000
+<<<<<<< HEAD
+Z64 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider_tb.vhd
+Z65 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider_tb.vhd
+R4
+R64
+R65
+R6
+<<<<<<< HEAD
+R4
+Z66 !s108 1633530877.803000
+R6
+!s108 1633514725.779000
+!i10b 1
+<<<<<<< HEAD
+w1633277137
+R4
+w1633530863
+R6
+<<<<<<< HEAD
+R4
+Z67 !s108 1633524336.470000
+R6
+!s108 1633514724.887000
+<<<<<<< HEAD
+R4
+Z68 !s108 1633524336.379000
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/alu.vhd|
+Z70 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/alu.vhd|
+R6
+!s108 1633514724.816000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\alu.vhd|
+!s107 C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\alu.vhd|
+<<<<<<< HEAD
+w1633508316
+R4
+Z71 w1633520796
+R6
+>>>>>>> data_path
+R27
+R28
+R6
+Z72 !s100 ijKoMM<k=W3`29<6`d;2b1
+!i10b 1
+>>>>>>> data_path
+R27
+R28
+R6
+Z73 !s100 SG=Yj?6Na;;KPM:QKK@ek3
+!i10b 1
+Atest
+Z74 DPx4 ieee 16 std_logic_signed 0 22 E>OLoMaBGQ?hbGgOoNXM^1
+Z75 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z76 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z77 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z78 DEx4 work 21 ripple_carry_adder_tb 0 22 83jka[ff3zol1fcQcgbiH1
+l26
+L11
+Z79 V<fP<Zd5iM?<Q=g7>T>G4n0
+R23
 32
 >>>>>>> data_path
-R15
-R16
-R3
-!s100 ^TH8@8AUO7R<4`d`I9_kB1
-!i10b 1
-Astructure
+l0
+L7
+Z80 V83jka[ff3zol1fcQcgbiH1
+R23
+32
+R6
+>>>>>>> data_path
+R74
+R75
 R76
 R77
-R78
-R79
-R80
-DEx4 work 3 alu 0 22 7N>G_j3;94f_IPfALG]^R2
-l41
-L22
-Vbfn>=<hdl31Y<h2mLk=E=0
-R14
-32
-R4
-R5
+R36
+>>>>>>> data_path
+R27
+R28
 R6
-R15
-R16
-!s100 I[7fJ_ZPGZe05eH^1FNF72
+!s100 bQY2mV?gG188Bi_J^oK6]0
 !i10b 1
 >>>>>>> data_path
-Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/alu_tb.vhd|
-Z84 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/alu_tb.vhd|
-R15
-R16
-R3
-Z85 !s100 O;EeoLM34[XRYUnlY3X^H3
+R27
+R28
+R6
+!s100 UZ^bWPK;R]WH<K=FAAi2a1
 !i10b 1
-Abehave
-Z86 DPx4 work 5 print 0 22 oHnSEV=2MS7:HKDck`YP13
-Z87 DPx4 ieee 16 std_logic_signed 0 22 E>OLoMaBGQ?hbGgOoNXM^1
-R78
-R79
-R80
-Z88 DEx4 work 6 alu_tb 0 22 3l<AHY1JJY=09[8@FlX@n3
-l37
-L10
-Z89 V?_nX=]Rdd54VT_U?Hc_dZ3
-R14
-32
-R7
-R83
-R84
-R15
-R16
-Z90 !s100 k:35_gfN_J8G3kGRA4K=a2
-!i10b 1
->>>>>>> data_path
-R78
-Z91 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
-Z92 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
-R79
-R80
-R44
-Z93 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider.vhd
-Z94 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider.vhd
-l0
-L7
-Z95 VY2B?YkXFK:5LfeOgeTj`O2
-R14
-32
-Z96 !s100 ^BizPh_;[;RC3n>Z_8Ub=2
->>>>>>> data_path
-Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider.vhd|
-Z98 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider.vhd|
-R15
-R16
-R3
-Abehave
-R78
-R91
-R92
-R79
-R80
-Z99 DEx4 work 13 clock_divider 0 22 Y2B?YkXFK:5LfeOgeTj`O2
-l18
+Astructure
+R75
+R76
+R77
+DEx4 work 18 ripple_carry_adder 0 22 lV=kho@:GcUL@R2fzNW>[1
+l28
 L15
-Z100 VGFGSo5>f?hSGlKGQml<ce3
-R14
+VdZnLLQznOWWL2]dN:g9bi3
+R23
 32
-R8
-R97
-R98
-R15
-R16
-Z101 !s100 29Rd8bDFHKKjZd_Pi1Qci3
-!i10b 1
 >>>>>>> data_path
 l0
-L3
-Z102 VBW<ggcjOkV[=MnJE7FN4f3
-R14
+L6
+VlV=kho@:GcUL@R2fzNW>[1
+R23
 32
-R3
+R6
 >>>>>>> data_path
-R15
-R16
-R3
-Z103 !s100 T6S66SRi`eT^z`CSA1VLK1
+R75
+R76
+R77
+R36
+>>>>>>> data_path
+R27
+R28
+R6
+Z81 !s100 c@;>ZK12iXP_IY0o57i_d1
+!i10b 1
+>>>>>>> data_path
+R27
+R28
+R6
+Z82 !s100 4_LT6i;DcnYBmK?6>V?Om0
 !i10b 1
 Abehave
-R79
-R80
-Z104 DEx4 work 16 clock_divider_tb 0 22 BW<ggcjOkV[=MnJE7FN4f3
-l18
-L7
-Z105 V?j2SI9GUoYL9OQ9zSlAK]3
-R14
+Z83 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R74
+R75
+R76
+R77
+Z84 DEx4 work 16 register_file_tb 0 22 MAWQI^>?jc87QJY_Q1?hz2
+l40
+L13
+Z85 VN54G7KK@jKd8XSoJ]lano2
+R23
 32
-R13
-R11
-R12
-R15
-R16
-Z106 !s100 _XCWOQ1aK[@=DEGH0:FUP2
+>>>>>>> data_path
+l0
+L8
+Z86 VMAWQI^>?jc87QJY_Q1?hz2
+R23
+32
+R6
+>>>>>>> data_path
+R83
+R74
+R75
+R76
+R77
+R36
+>>>>>>> data_path
+R27
+R28
+R6
+!s100 C1@BiDULh_O76=jif0RYK0
+!i10b 1
+Abehave
+R83
+R76
+R77
+DEx4 work 13 register_file 0 22 @Dd[3>iVaPTANn3j`eIS82
+l29
+L25
+>>>>>>> data_path
+l0
+L8
+V@Dd[3>iVaPTANn3j`eIS82
+R23
+32
+R6
+>>>>>>> data_path
+R83
+R76
+R77
+R36
+>>>>>>> data_path
+R27
+R28
+nbody
+R6
+Z87 !s100 fCG>=@;1HXbSU04hAm<Mo0
 !i10b 1
 >>>>>>> data_path
-R78
-R79
-R80
-w1633513603
-R44
+R27
+R28
+R6
+Z88 !s100 n7C2i>zJlE8TV_O^egDio0
+!i10b 1
+Bbody
+Z89 DPx4 work 5 print 0 22 oHnSEV=2MS7:HKDck`YP13
+R74
+R76
+R77
+R75
+l0
+L12
+Z90 V<c<;KUIh2<QOHQn<kEOJa1
+R23
+32
 >>>>>>> data_path
-R3
+l0
+L5
+Z91 VoHnSEV=2MS7:HKDck`YP13
+R23
+32
+b1
+R6
+>>>>>>> data_path
+R6
+>>>>>>> data_path
+R27
+R28
+R6
+Z92 !s100 hTfMd>g583^CFz8>i]zVU1
+!i10b 1
+Abehave
+R75
+R76
+R77
+Z93 DEx4 work 13 full_adder_tb 0 22 [W;Yh<3agQ3c3ioCd3^Y31
+l20
+L9
+Z94 Vd6jkLcAl^36UDY^F?QTLI3
+R23
+32
+R39
+R40
+R41
+R27
+R28
+Z95 !s100 ==7TeC=65`0OV0=W493Z41
+!i10b 1
+>>>>>>> data_path
+R27
+R28
+R6
+Z96 !s100 NTmk=J7OKHePLK>=k[lC00
+!i10b 1
+Astructure
+R75
+R76
+R77
+Z97 DEx4 work 10 full_adder 0 22 Mzll3jd]=zV:><i>J3[kP1
+l15
+L13
+Z98 Vlm;[UVBEff9]RlcDc`o^J2
+R23
+32
+R42
+R43
+R44
+R27
+R28
+Z99 !s100 mKbT1FdYDES?4@:mEOh2P1
+!i10b 1
+>>>>>>> data_path
+R6
+!i10b 1
+>>>>>>> data_path
+R6
+!i10b 1
+Abehave
+R83
+R74
+R75
+R76
+R77
+>>>>>>> data_path
+R83
+R74
+R75
+R76
+R77
+R36
+>>>>>>> data_path
+R6
 !i10b 1
 !s108 1633514725.590000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\code.vhd|
 !s107 C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\code.vhd|
 >>>>>>> data_path
-R92
-R87
-R78
-R79
-R80
-R44
->>>>>>> data_path
-R3
-!i10b 1
-Abehave
-R92
-R87
-R78
-R79
-R80
->>>>>>> data_path
-R3
-!i10b 1
->>>>>>> data_path
-R15
-R16
-R3
-Z107 !s100 NTmk=J7OKHePLK>=k[lC00
-!i10b 1
-Astructure
-R78
-R79
-R80
-Z108 DEx4 work 10 full_adder 0 22 Mzll3jd]=zV:><i>J3[kP1
-l15
-L13
-Z109 Vlm;[UVBEff9]RlcDc`o^J2
-R14
-32
-R35
-R36
-R37
-R15
-R16
-Z110 !s100 mKbT1FdYDES?4@:mEOh2P1
-!i10b 1
->>>>>>> data_path
-R15
-R16
-R3
-Z111 !s100 hTfMd>g583^CFz8>i]zVU1
-!i10b 1
-Abehave
-R78
-R79
-R80
-Z112 DEx4 work 13 full_adder_tb 0 22 [W;Yh<3agQ3c3ioCd3^Y31
-l20
-L9
-Z113 Vd6jkLcAl^36UDY^F?QTLI3
-R14
-32
-R38
-R39
-R40
-R15
-R16
-Z114 !s100 ==7TeC=65`0OV0=W493Z41
-!i10b 1
->>>>>>> data_path
-R3
->>>>>>> data_path
-l0
-L5
-Z115 VoHnSEV=2MS7:HKDck`YP13
-R14
-32
-b1
-R3
->>>>>>> data_path
-R15
-R16
-R3
-Z116 !s100 n7C2i>zJlE8TV_O^egDio0
-!i10b 1
-Bbody
-R86
-R87
-R79
-R80
-R78
-l0
-L12
-Z117 V<c<;KUIh2<QOHQn<kEOJa1
-R14
-32
->>>>>>> data_path
-R15
-R16
-nbody
-R3
-Z118 !s100 fCG>=@;1HXbSU04hAm<Mo0
-!i10b 1
->>>>>>> data_path
-R92
-R79
-R80
-R44
->>>>>>> data_path
-l0
-L8
-V@Dd[3>iVaPTANn3j`eIS82
-R14
-32
-R3
->>>>>>> data_path
-R15
-R16
-R3
-!s100 C1@BiDULh_O76=jif0RYK0
-!i10b 1
-Abehave
-R92
-R79
-R80
-DEx4 work 13 register_file 0 22 @Dd[3>iVaPTANn3j`eIS82
-l29
-L25
->>>>>>> data_path
-R92
-R87
-R78
-R79
-R80
-R44
->>>>>>> data_path
-l0
-L8
-Z119 VMAWQI^>?jc87QJY_Q1?hz2
-R14
-32
-R3
->>>>>>> data_path
-R15
-R16
-R3
-Z120 !s100 4_LT6i;DcnYBmK?6>V?Om0
-!i10b 1
-Abehave
-R92
-R87
-R78
-R79
-R80
-Z121 DEx4 work 16 register_file_tb 0 22 MAWQI^>?jc87QJY_Q1?hz2
-l40
-L13
-Z122 VN54G7KK@jKd8XSoJ]lano2
-R14
-32
->>>>>>> data_path
-R15
-R16
-R3
-Z123 !s100 c@;>ZK12iXP_IY0o57i_d1
-!i10b 1
->>>>>>> data_path
-R78
-R79
-R80
-R44
->>>>>>> data_path
-l0
-L6
-VlV=kho@:GcUL@R2fzNW>[1
-R14
-32
-R3
->>>>>>> data_path
-R15
-R16
-R3
-!s100 UZ^bWPK;R]WH<K=FAAi2a1
-!i10b 1
-Astructure
-R78
-R79
-R80
-DEx4 work 18 ripple_carry_adder 0 22 lV=kho@:GcUL@R2fzNW>[1
-l28
-L15
-VdZnLLQznOWWL2]dN:g9bi3
-R14
-32
->>>>>>> data_path
-R15
-R16
-R3
-!s100 bQY2mV?gG188Bi_J^oK6]0
-!i10b 1
->>>>>>> data_path
-R87
-R78
-R79
-R80
-R44
->>>>>>> data_path
-l0
-L7
-Z124 V83jka[ff3zol1fcQcgbiH1
-R14
-32
-R3
->>>>>>> data_path
-R15
-R16
-R3
-Z125 !s100 SG=Yj?6Na;;KPM:QKK@ek3
-!i10b 1
-Atest
-R87
-R78
-R79
-R80
-Z126 DEx4 work 21 ripple_carry_adder_tb 0 22 83jka[ff3zol1fcQcgbiH1
-l26
-L11
-Z127 V<fP<Zd5iM?<Q=g7>T>G4n0
-R14
-32
->>>>>>> data_path
-R15
-R16
-R3
-Z128 !s100 ijKoMM<k=W3`29<6`d;2b1
-!i10b 1
-Ealu
-Z129 w1633954586
-Z130 DPx4 work 4 code 0 22 <cfBXkzRnECgdQb90=Km>1
+R75
 R76
 R77
-R78
-R79
-R80
-R44
-R81
-R82
+w1633513603
+R36
+>>>>>>> data_path
+R27
+R28
+R6
+Z100 !s100 T6S66SRi`eT^z`CSA1VLK1
+!i10b 1
+Abehave
+R76
+R77
+Z101 DEx4 work 16 clock_divider_tb 0 22 BW<ggcjOkV[=MnJE7FN4f3
+l18
+L7
+Z102 V?j2SI9GUoYL9OQ9zSlAK]3
+R23
+32
+R63
+R61
+R62
+R27
+R28
+Z103 !s100 _XCWOQ1aK[@=DEGH0:FUP2
+!i10b 1
+>>>>>>> data_path
+l0
+L3
+Z104 VBW<ggcjOkV[=MnJE7FN4f3
+R23
+32
+R6
+>>>>>>> data_path
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider.vhd|
+Z106 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider.vhd|
+R27
+R28
+R6
+Abehave
+R75
+Z107 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R83
+R76
+R77
+Z108 DEx4 work 13 clock_divider 0 22 Y2B?YkXFK:5LfeOgeTj`O2
+l18
+L15
+Z109 VGFGSo5>f?hSGlKGQml<ce3
+R23
+32
+R66
+R105
+R106
+R27
+R28
+Z110 !s100 29Rd8bDFHKKjZd_Pi1Qci3
+!i10b 1
+>>>>>>> data_path
+R75
+R107
+R83
+R76
+R77
+R36
+8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider.vhd
+FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider.vhd
+l0
+L7
+Z111 VY2B?YkXFK:5LfeOgeTj`O2
+R23
+32
+Z112 !s100 ^BizPh_;[;RC3n>Z_8Ub=2
+>>>>>>> data_path
+Z113 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/alu_tb.vhd|
+Z114 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/alu_tb.vhd|
+R27
+R28
+R6
+Z115 !s100 O;EeoLM34[XRYUnlY3X^H3
+!i10b 1
+Abehave
+R89
+R74
+R75
+R76
+R77
+Z116 DEx4 work 6 alu_tb 0 22 3l<AHY1JJY=09[8@FlX@n3
+l37
+L10
+Z117 V?_nX=]Rdd54VT_U?Hc_dZ3
+R23
+32
+R67
+R113
+R114
+R27
+R28
+Z118 !s100 k:35_gfN_J8G3kGRA4K=a2
+!i10b 1
+>>>>>>> data_path
+R27
+R28
+R6
+!s100 ^TH8@8AUO7R<4`d`I9_kB1
+!i10b 1
+Astructure
+Z119 DPx8 synopsys 10 attributes 0 22 J^T`lPA_8_J<l8kQiVE]>2
+Z120 DPx4 ieee 14 std_logic_misc 0 22 >dU:RInm^_6_mBJ^<6QGY2
+R75
+R76
+R77
+DEx4 work 3 alu 0 22 7N>G_j3;94f_IPfALG]^R2
+l41
+L22
+Vbfn>=<hdl31Y<h2mLk=E=0
+R23
+32
+R68
+R69
+R70
+R27
+R28
+!s100 I[7fJ_ZPGZe05eH^1FNF72
+!i10b 1
+>>>>>>> data_path
+R119
+R120
+R75
+R76
+R77
+R36
+8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/alu.vhd
+FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/alu.vhd
+l0
+L8
+V7N>G_j3;94f_IPfALG]^R2
+R23
+32
+Ealu
+Z121 w1634131907
+Z122 DPx4 work 4 code 0 22 <cfBXkzRnECgdQb90=Km>1
+R119
+R120
+R75
+R76
+R77
+Z123 dD:\Abroad\EIT\KTH\Digital Design and Validation\IL2203\cpu
+Z124 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/alu.vhd
+Z125 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/alu.vhd
 l0
 L9
 V[jHa_TOG8H=T<[^OW6cOe1
-R14
+R23
 32
-Z131 !s108 1634079584.553000
-R5
-R6
-R15
-R16
+Z126 !s108 1634132464.276000
+Z127 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/alu.vhd|
+Z128 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/alu.vhd|
+R27
+R28
 !s100 9AB`9;M@AB5JmNOoZb=gI2
 !i10b 1
 Astructure
-R130
+R122
+R119
+R120
+R75
 R76
 R77
-R78
-R79
-R80
 DEx4 work 3 alu 0 22 [jHa_TOG8H=T<[^OW6cOe1
 l42
 L23
 VA26N?JAMiD58K9>iHRco;1
-R14
+R23
 32
-R131
-R5
-R6
-R15
-R16
+R126
+R127
+R128
+R27
+R28
 !s100 nG4j[:l?_G3ZM8KOzleCl2
 !i10b 1
 Ealu_tb
-Z132 w1632581981
-R86
-R87
-R78
-R79
-R80
-R44
-Z133 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/alu_tb.vhd
-Z134 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/alu_tb.vhd
+Z129 w1633439386
+R89
+R74
+R75
+R76
+R77
+R123
+Z130 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/alu_tb.vhd
+Z131 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/alu_tb.vhd
 l0
 L7
 V3l<AHY1JJY=09[8@FlX@n3
-R85
-R14
+R115
+R23
 32
-Z135 !s108 1634079584.616000
-R83
-R84
-R15
-R16
+Z132 !s108 1634132464.428000
+Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/alu_tb.vhd|
+Z134 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/alu_tb.vhd|
+R27
+R28
 !i10b 1
 Abehave
-R86
-R87
-R78
-R79
-R80
-R88
+R89
+R74
+R75
+R76
+R77
+R116
 l37
 L10
-R89
-R90
-R14
+R117
+R118
+R23
 32
-R135
-R83
-R84
-R15
-R16
+R132
+R133
+R134
+R27
+R28
 !i10b 1
 Eclock_divider
-Z136 w1633869726
-R78
-R91
-R92
-R79
-R80
-R44
-R93
-R94
+R121
+R75
+R107
+R83
+R76
+R77
+R123
+Z135 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/Clock_Divider.vhd
+Z136 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/Clock_Divider.vhd
 l0
 L7
-R95
-R96
-R14
+R111
+R112
+R23
 32
-Z137 !s108 1634079585.268000
-R97
-R98
-R15
-R16
+Z137 !s108 1634132464.581000
+Z138 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/Clock_Divider.vhd|
+Z139 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/Clock_Divider.vhd|
+R27
+R28
 !i10b 1
 Abehave
-R78
-R91
-R92
-R79
-R80
-R99
+R75
+R107
+R83
+R76
+R77
+R108
 l18
 L15
-R100
-R101
-R14
+R109
+R110
+R23
 32
 R137
-R97
-R98
-R15
-R16
+R138
+R139
+R27
+R28
 !i10b 1
 Eclock_divider_tb
-Z138 w1632839355
-R79
-R80
-R44
-R9
-R10
+R129
+R76
+R77
+R123
+Z140 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/Clock_Divider_tb.vhd
+Z141 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/Clock_Divider_tb.vhd
 l0
 L3
-R102
-R103
-R14
+R104
+R100
+R23
 32
-Z139 !s108 1634079585.331000
-R11
-R12
-R15
-R16
+Z142 !s108 1634132464.723000
+Z143 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/Clock_Divider_tb.vhd|
+Z144 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/Clock_Divider_tb.vhd|
+R27
+R28
 !i10b 1
 Abehave
-R79
-R80
-R104
+R76
+R77
+R101
 l18
 L7
-R105
-R106
-R14
+R102
+R103
+R23
 32
-R139
-R11
-R12
-R15
-R16
+R142
+R143
+R144
+R27
+R28
 !i10b 1
 Pcode
-R78
-R79
-R80
-w1634072498
-R44
-Z140 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/code.vhd
-Z141 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/code.vhd
+R75
+R76
+R77
+R121
+R123
+8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/code.vhd
+FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/code.vhd
 l0
 L6
 V<cfBXkzRnECgdQb90=Km>1
-R14
+R23
 32
-R41
-R15
-R16
-R42
+R27
+R28
 !s100 N6Go7LRfhV16e@2`eLT7L0
 !i10b 1
-!s108 1634079585.152000
+!s108 1634132464.859000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/code.vhd|
+!s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/code.vhd|
 Ecpu
-Z142 w1634079582
-R130
-R78
-R91
-R92
-R79
-R80
-R44
-Z143 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/cpu.vhd
-Z144 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/cpu.vhd
+R121
+R122
+R75
+R107
+R83
+R76
+R77
+R123
+Z145 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/cpu.vhd
+Z146 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/cpu.vhd
 l0
 L10
 VIX_fL[knm6:UV:KhLo:ck1
-R14
+R23
 32
-Z145 !s108 1634079585.449000
-Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/cpu.vhd|
-Z147 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/cpu.vhd|
-R15
-R16
+Z147 !s108 1634132465.000000
+Z148 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/cpu.vhd|
+Z149 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/cpu.vhd|
+R27
+R28
 !s100 ;1A5hOJUWZGXRTSlcPTb83
 !i10b 1
 Abehave
-R130
-R78
-R91
-R92
-R79
-R80
-R21
+R122
+R75
+R107
+R83
+R76
+R77
+R56
 l68
 L20
 Vn>=k2UK7eHhaK[[K^UTVC0
-R14
+R23
 32
-R145
-R146
 R147
-R15
-R16
+R148
+R149
+R27
+R28
 !s100 [SPfR9BLfze?ZAK2DaKW32
 !i10b 1
 Edata_path
-Z148 w1634072606
-R130
-R78
-R79
-R80
-R44
-R17
-R18
+R121
+R122
+R75
+R76
+R77
+R123
+Z150 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/Data_path.vhd
+Z151 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/Data_path.vhd
 l0
 L9
-Z149 V_e3:jINo`A:>z?kWVL9fZ3
-Z150 !s100 8hRd[zCgfhz]3XJ:kk]aS2
-R14
+Z152 V_e3:jINo`A:>z?kWVL9fZ3
+Z153 !s100 8hRd[zCgfhz]3XJ:kk]aS2
+R23
 32
-Z151 !s108 1634079585.091000
-R19
-R20
-R15
-R16
+Z154 !s108 1634132376.896000
+Z155 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/Data_path.vhd|
+Z156 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/Data_path.vhd|
+R27
+R28
 !i10b 1
 Abehave
-R130
-R78
-R79
-R80
-Z152 DEx4 work 9 data_path 0 22 _e3:jINo`A:>z?kWVL9fZ3
+R122
+R75
+R76
+R77
+Z157 DEx4 work 9 data_path 0 22 _e3:jINo`A:>z?kWVL9fZ3
 l88
 L37
-Z153 VZDfDUCmXzeIWmgmbnlTnj0
-Z154 !s100 _Xd9X=lVo5CDz0o<^TSVN3
-R14
+Z158 VZDfDUCmXzeIWmgmbnlTnj0
+Z159 !s100 _Xd9X=lVo5CDz0o<^TSVN3
+R23
 32
-R151
-R19
-R20
-R15
-R16
+R154
+R155
+R156
+R27
+R28
 !i10b 1
 Edata_path
-R148
-R130
-R78
-R79
-R80
-R44
-R17
-R18
+R121
+R122
+R75
+R76
+R77
+R123
+R150
+R151
 l0
 L9
-R149
-R150
-R14
+R152
+R153
+R23
 32
-Z155 !s108 1634079025.615000
-R19
-R20
-R15
-R16
+Z160 !s108 1634132465.150000
+R155
+R156
+R27
+R28
 !i10b 1
 Abehave
-R130
-R78
-R79
-R80
-R152
+R122
+R75
+R76
+R77
+R157
 l88
 L37
-R153
-R154
-R14
-32
-R155
-R19
-R20
-R15
-R16
-!i10b 1
-Edata_path_tb
-Z156 w1633790566
-R92
-R87
-R78
-R79
-R80
-R44
-R22
-R23
-l0
-L8
-R27
-R31
-R14
-32
-Z157 !s108 1634079585.205000
-R25
-R26
-R15
-R16
-!i10b 1
-Abehave
-R92
-R87
-R78
-R79
-R80
-R32
-l52
-L13
-R33
-R34
-R14
-32
-R157
-R25
-R26
-R15
-R16
-!i10b 1
-Edata_path_tb
-R156
-R92
-R87
-R78
-R79
-R80
-R44
-R22
-R23
-l0
-L8
-R27
-R31
-R14
-32
-Z158 !s108 1634079025.727000
-R25
-R26
-R15
-R16
-!i10b 1
-Abehave
-R92
-R87
-R78
-R79
-R80
-R32
-l52
-L13
-R33
-R34
-R14
-32
 R158
-R25
-R26
-R15
-R16
+R159
+R23
+32
+R160
+R155
+R156
+R27
+R28
+!i10b 1
+Edata_path_tb
+R121
+R83
+R74
+R75
+R76
+R77
+R123
+Z161 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/Data_path_tb.vhd
+Z162 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/Data_path_tb.vhd
+l0
+L8
+R54
+R55
+R23
+32
+Z163 !s108 1634132465.274000
+Z164 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/Data_path_tb.vhd|
+Z165 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/Data_path_tb.vhd|
+R27
+R28
+!i10b 1
+Abehave
+R83
+R74
+R75
+R76
+R77
+R48
+l52
+L13
+R49
+R53
+R23
+32
+R163
+R164
+R165
+R27
+R28
+!i10b 1
+Edata_path_tb
+R121
+R83
+R74
+R75
+R76
+R77
+R123
+R161
+R162
+l0
+L8
+R54
+R55
+R23
+32
+Z166 !s108 1634132377.048000
+R164
+R165
+R27
+R28
+!i10b 1
+Abehave
+R83
+R74
+R75
+R76
+R77
+R48
+l52
+L13
+R49
+R53
+R23
+32
+R166
+R164
+R165
+R27
+R28
 !i10b 1
 Edp
-R130
-R78
-R79
-R80
+R122
+R75
+R76
+R77
 32
-Z159 w1633953783
-R44
-R17
-R18
+Z167 w1633953783
+R36
+R57
+R58
 l0
 L9
 V1[e>kR@fZn]KURX4SnoSG2
-R14
-Z160 !s108 1633954012.354000
-R19
-R20
-R15
-R16
+R23
+Z168 !s108 1633954012.354000
+R59
+R60
+R27
+R28
 !i10b 1
 !s100 3_oP?KnKG_cBSS=1jPmoh3
 Abehave
-R130
-R78
-R79
-R80
+R122
+R75
+R76
+R77
 DEx4 work 2 dp 0 22 1[e>kR@fZn]KURX4SnoSG2
 32
 l83
 L34
 V_MfDDDHMJIoF^;hoB>:<E2
-R14
-R160
-R19
-R20
-R15
-R16
+R23
+R168
+R59
+R60
+R27
+R28
 !i10b 1
 !s100 M7Q9QI?<^2NahB1[JW5V72
 Efull_adder
-Z161 w1630914410
-R78
-R79
-R80
-R44
-Z162 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/full_adder.vhd
-Z163 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/full_adder.vhd
+Z169 w1633439323
+R75
+R76
+R77
+R123
+Z170 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/full_adder.vhd
+Z171 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/full_adder.vhd
 l0
 L5
 VMzll3jd]=zV:><i>J3[kP1
-R107
-R14
+R96
+R23
 32
-Z164 !s108 1634079584.737000
-R36
-R37
-R15
-R16
+Z172 !s108 1634132465.558000
+Z173 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/full_adder.vhd|
+Z174 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/full_adder.vhd|
+R27
+R28
 !i10b 1
 Astructure
-R78
-R79
-R80
-R108
+R75
+R76
+R77
+R97
 l15
 L13
-R109
-R110
-R14
-32
-R164
-R36
-R37
-R15
-R16
-!i10b 1
-Efull_adder_tb
-Z165 w1630913596
-R78
-R79
-R80
-R44
-Z166 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/full_adder_tb.vhd
-Z167 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/full_adder_tb.vhd
-l0
-L5
-V[W;Yh<3agQ3c3ioCd3^Y31
-R111
-R14
-32
-Z168 !s108 1634079584.793000
-R39
-R40
-R15
-R16
-!i10b 1
-Abehave
-R78
-R79
-R80
-R112
-l20
-L9
-R113
-R114
-R14
-32
-R168
-R39
-R40
-R15
-R16
-!i10b 1
-Pmicro_assembly_code
-R78
-R79
-R80
-32
-R2
-R44
-R140
-R141
-l0
-L6
-VlbFQ52d1Do4D9diMK_7f81
-R14
-R15
-R16
-!i10b 1
-!s100 X=44Zh33GQkc?KNj9a[aB3
-Emicro_assembly_code_rom
-Z169 w1634076910
-R78
-R130
-R92
-R79
-R80
-R44
-Z170 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/micro_assembly_code_ROM.vhd
-Z171 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/micro_assembly_code_ROM.vhd
-l0
-L8
-VFTIKL2W=g@5LCB0[h792V2
-R14
-32
-Z172 !s108 1634079585.386000
-Z173 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/micro_assembly_code_ROM.vhd|
-Z174 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/micro_assembly_code_ROM.vhd|
-R15
-R16
-!s100 >VBlRAUZnlEo?_EOdLzd90
-!i10b 1
-Abehave
-R78
-R130
-R92
-R79
-R80
-DEx4 work 23 micro_assembly_code_rom 0 22 FTIKL2W=g@5LCB0[h792V2
-l266
-L17
-VhXkJ[Ae__1=oLJkhLdcHj1
-R14
+R98
+R99
+R23
 32
 R172
 R173
 R174
-R15
-R16
+R27
+R28
+!i10b 1
+Efull_adder_tb
+R169
+R75
+R76
+R77
+R123
+Z175 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/full_adder_tb.vhd
+Z176 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/full_adder_tb.vhd
+l0
+L5
+V[W;Yh<3agQ3c3ioCd3^Y31
+R92
+R23
+32
+Z177 !s108 1634132465.692000
+Z178 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/full_adder_tb.vhd|
+Z179 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/full_adder_tb.vhd|
+R27
+R28
+!i10b 1
+Abehave
+R75
+R76
+R77
+R93
+l20
+L9
+R94
+R95
+R23
+32
+R177
+R178
+R179
+R27
+R28
+!i10b 1
+Pmicro_assembly_code
+R75
+R76
+R77
+32
+R71
+R36
+8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/code.vhd
+FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/code.vhd
+l0
+L6
+VlbFQ52d1Do4D9diMK_7f81
+R23
+R27
+R28
+!i10b 1
+!s100 X=44Zh33GQkc?KNj9a[aB3
+Emicro_assembly_code_rom
+Z180 w1634133006
+R75
+R122
+R83
+R76
+R77
+R123
+Z181 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/micro_assembly_code_ROM.vhd
+Z182 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/micro_assembly_code_ROM.vhd
+l0
+L8
+VFTIKL2W=g@5LCB0[h792V2
+R23
+32
+Z183 !s108 1634133015.204000
+Z184 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/micro_assembly_code_ROM.vhd|
+Z185 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/micro_assembly_code_ROM.vhd|
+R27
+R28
+!s100 >VBlRAUZnlEo?_EOdLzd90
+!i10b 1
+Abehave
+R75
+R122
+R83
+R76
+R77
+DEx4 work 23 micro_assembly_code_rom 0 22 FTIKL2W=g@5LCB0[h792V2
+l266
+L17
+VhXkJ[Ae__1=oLJkhLdcHj1
 !s100 RhLn>:5iEm`Ik:Cj;IGUn1
+R23
+32
+R183
+R184
+R185
+R27
+R28
 !i10b 1
 Emrom_tb
-Z175 w1634057944
-R78
-R130
-R92
-R79
-R80
-R44
-Z176 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/MROM_tb.vhd
-Z177 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/MROM_tb.vhd
+Z186 w1634057944
+R75
+R122
+R83
+R76
+R77
+R36
+Z187 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/MROM_tb.vhd
+Z188 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/MROM_tb.vhd
 l0
 L8
 VbU4:7RUW]CCjj?Z^b8NL<3
-!s100 V<1K]4@k0z`E7>I>ROlM71
-R14
+R23
 32
+Z189 !s108 1634079585.579000
+Z190 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/MROM_tb.vhd|
+Z191 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/MROM_tb.vhd|
+R27
+R28
+!s100 V<1K]4@k0z`E7>I>ROlM71
 !i10b 1
-Z178 !s108 1634079585.579000
-Z179 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/MROM_tb.vhd|
-Z180 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/MROM_tb.vhd|
-R15
-R16
 Abehave
-R78
-R130
-R92
-R79
-R80
-Z181 DEx4 work 7 mrom_tb 0 22 bU4:7RUW]CCjj?Z^b8NL<3
+R75
+R122
+R83
+R76
+R77
+DEx4 work 7 mrom_tb 0 22 bU4:7RUW]CCjj?Z^b8NL<3
 l26
 L12
-Z182 Vf]Nz2KaeX4?zUzla9dASa3
-Z183 !s100 mgY;=`G43Hb?B5[OQR2aT1
-R14
+Vf]Nz2KaeX4?zUzla9dASa3
+R23
 32
+R189
+R190
+R191
+R27
+R28
+!s100 mgY;=`G43Hb?B5[OQR2aT1
 !i10b 1
-R178
-R179
-R180
-R15
-R16
 Pprint
-R87
-R79
-R80
-R78
-R43
-R44
-R45
-R46
+R74
+R76
+R77
+R75
+R169
+R123
+Z192 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/debug_std_logic_1164.vhd
+Z193 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/debug_std_logic_1164.vhd
 l0
 L5
-R115
-R116
-R14
+R91
+R88
+R23
 32
 b1
-Z184 !s108 1634079584.675000
-R48
-R49
-R15
-R16
+Z194 !s108 1634132465.425000
+Z195 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/debug_std_logic_1164.vhd|
+Z196 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/debug_std_logic_1164.vhd|
+R27
+R28
 !i10b 1
 Bbody
-R86
-R87
-R79
-R80
-R78
+R89
+R74
+R76
+R77
+R75
 l0
 L12
-R117
-R118
-R14
+R90
+R87
+R23
 32
-R184
-R48
-R49
-R15
-R16
+R194
+R195
+R196
+R27
+R28
 nbody
 !i10b 1
 Eregister_file
-Z185 w1634062826
-R92
-R79
-R80
-R44
-R51
-R52
+R121
+R83
+R76
+R77
+R123
+Z197 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file.vhd
+Z198 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file.vhd
 l0
 L8
 V47jYR=l[6?[j3K>?J98H>2
-R14
+R23
 32
-Z186 !s108 1634079584.967000
-R54
-R55
-R15
-R16
+Z199 !s108 1634132474.605000
+Z200 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file.vhd|
+Z201 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file.vhd|
+R27
+R28
 !s100 ^Q2AiQc4m2dz9^YNfT=V:1
 !i10b 1
 Abehave
-R92
-R79
-R80
+R83
+R76
+R77
 DEx4 work 13 register_file 0 22 47jYR=l[6?[j3K>?J98H>2
 l29
 L25
 VhHIRaDR^?`]BAfYKFAeZT0
-R14
+R23
 32
-R186
-R54
-R55
-R15
-R16
+R199
+R200
+R201
+R27
+R28
 !s100 U4JlDObE8g[LK]o5Cb>Oi1
 !i10b 1
 Eregister_file_tb
-Z187 w1632774745
-R92
-R87
-R78
-R79
-R80
-R44
-R56
-R57
+R129
+R83
+R74
+R75
+R76
+R77
+R123
+Z202 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file_tb.vhd
+Z203 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file_tb.vhd
 l0
 L8
-R119
-R120
-R14
+R86
+R82
+R23
 32
-Z188 !s108 1634079025.554000
-R59
-R60
-R15
-R16
+Z204 !s108 1634132474.728000
+Z205 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file_tb.vhd|
+Z206 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file_tb.vhd|
+R27
+R28
 !i10b 1
 Abehave
-R92
-R87
-R78
-R79
-R80
-R121
+R83
+R74
+R75
+R76
+R77
+R84
 l40
 L13
-R122
-R123
-R14
+R85
+R81
+R23
 32
-R188
-R59
-R60
-R15
-R16
+R204
+R205
+R206
+R27
+R28
 !i10b 1
 Eregister_file_tb
-R187
-R92
-R87
-R78
-R79
-R80
-R44
-R56
-R57
+R129
+R83
+R74
+R75
+R76
+R77
+R123
+R202
+R203
 l0
 L8
-R119
-R120
-R14
+R86
+R82
+R23
 32
-Z189 !s108 1634079585.027000
-R59
-R60
-R15
-R16
+Z207 !s108 1634131979.895000
+R205
+R206
+R27
+R28
 !i10b 1
 Abehave
-R92
-R87
-R78
-R79
-R80
-R121
+R83
+R74
+R75
+R76
+R77
+R84
 l40
 L13
-R122
-R123
-R14
+R85
+R81
+R23
 32
-R189
-R59
-R60
-R15
-R16
+R207
+R205
+R206
+R27
+R28
 !i10b 1
 Erf_mem
-R78
-R130
-R92
-R79
-R80
+R75
+R122
+R83
+R76
+R77
 32
-Z190 w1633953801
-R44
-R51
-R52
+Z208 w1633953801
+R36
+R29
+R30
 l0
 L9
 VB?La01hzi6kBZ62lTo7Pc3
-R14
-Z191 !s108 1633954012.231000
-R54
-R55
-R15
-R16
+R23
+Z209 !s108 1633954012.231000
+R25
+R26
+R27
+R28
 !i10b 1
 !s100 `N5]]`c=]V74GTm<oG0B>2
 Abehave
-R78
-R130
-R92
-R79
-R80
+R75
+R122
+R83
+R76
+R77
 DEx4 work 6 rf_mem 0 22 B?La01hzi6kBZ62lTo7Pc3
 32
 l30
 L26
 V]QeN3`W5OkXPUC3iR<3EK1
-R14
-R191
-R54
-R55
-R15
-R16
+R23
+R209
+R25
+R26
+R27
+R28
 !i10b 1
 !s100 AG9PQ?6ASEQizXNS9^J=g0
 Eripple_carry_adder
-Z192 w1633897852
-R130
-R78
-R79
-R80
-R44
-R63
-R64
+R121
+R122
+R75
+R76
+R77
+R123
+Z210 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/ripple_carry_adder.vhd
+Z211 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/ripple_carry_adder.vhd
 l0
 L6
 VVI0ae?3;MLkjhHNe]hlmi0
-R14
+R23
 32
-Z193 !s108 1634079584.850000
-R66
-R67
-R15
-R16
+Z212 !s108 1634132474.860000
+Z213 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/ripple_carry_adder.vhd|
+Z214 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/ripple_carry_adder.vhd|
+R27
+R28
 !s100 o;^k9S5=2[aT=YcV;4N`[0
 !i10b 1
 Astructure
-R130
-R78
-R79
-R80
+R122
+R75
+R76
+R77
 DEx4 work 18 ripple_carry_adder 0 22 VI0ae?3;MLkjhHNe]hlmi0
 l29
 L15
 Vi;FK^f4H]dc:9lhQ=3>DG1
-R14
+R23
 32
-R193
-R66
-R67
-R15
-R16
+R212
+R213
+R214
+R27
+R28
 !s100 dFn?P_Q3`fDfMgYj1UD<_0
 !i10b 1
 Eripple_carry_adder_tb
-R69
-R87
-R78
-R79
-R80
-R44
-R70
-R71
+R169
+R74
+R75
+R76
+R77
+R123
+Z215 8D:\Abroad\EIT\KTH\Digital Design and Validation\IL2203\cpu\ripple_carry_adder_tb.vhd
+Z216 FD:\Abroad\EIT\KTH\Digital Design and Validation\IL2203\cpu\ripple_carry_adder_tb.vhd
 l0
 L7
-R124
-R125
-R14
-32
-Z194 !s108 1634079584.907000
+R80
 R73
-R74
-R15
-R16
+R23
+32
+Z217 !s108 1634132475.005000
+Z218 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:\Abroad\EIT\KTH\Digital Design and Validation\IL2203\cpu\ripple_carry_adder_tb.vhd|
+Z219 !s107 D:\Abroad\EIT\KTH\Digital Design and Validation\IL2203\cpu\ripple_carry_adder_tb.vhd|
+R27
+R28
 !i10b 1
 Atest
-R87
+R74
+R75
+R76
+R77
 R78
-R79
-R80
-R126
 l26
 L11
-R127
-R128
-R14
+R79
+R72
+R23
 32
-R194
-R73
-R74
-R15
-R16
+R217
+R218
+R219
+R27
+R28
 !i10b 1
 Etest
-Z195 w1634062862
-R130
-Z196 DPx12 modelsim_lib 4 util 0 22 Ci0SSDmVf2K[lFkJZoo=62
-R78
-R91
-R79
-R80
-R44
-Z197 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/test_cpu_advanced.vhd
-Z198 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/test_cpu_advanced.vhd
+Z220 w1634062862
+R122
+Z221 DPx12 modelsim_lib 4 util 0 22 Ci0SSDmVf2K[lFkJZoo=62
+R75
+R107
+R76
+R77
+R36
+Z222 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/test_cpu_advanced.vhd
+Z223 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/test_cpu_advanced.vhd
 l0
 L9
 VIo5X6:lE]ibQZ8h`34=C62
-R14
+R23
 32
-Z199 !s108 1634079585.515000
-Z200 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/test_cpu_advanced.vhd|
-Z201 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/test_cpu_advanced.vhd|
-R15
-R16
+Z224 !s108 1634079585.515000
+Z225 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/test_cpu_advanced.vhd|
+Z226 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/test_cpu_advanced.vhd|
+R27
+R28
 !s100 4WRl=X5A@A>YIKlf<]fZ53
 !i10b 1
 Atest_cpu_advanced
-R130
-R196
-R78
-R91
-R79
-R80
+R122
+R221
+R75
+R107
+R76
+R77
 DEx4 work 4 test 0 22 Io5X6:lE]ibQZ8h`34=C62
 l60
 L12
 V]iRn0_4L3VY>6Gc904zdz3
-!s100 fL<eiOUih;<gfEUXdLg7^1
-R14
+R23
 32
-R199
-R200
-R201
-R15
-R16
+R224
+R225
+R226
+R27
+R28
+!s100 fL<eiOUih;<gfEUXdLg7^1
 !i10b 1
