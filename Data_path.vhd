@@ -136,7 +136,7 @@ end process;
 
 
 RA_sig_ored     <= D_RA_sig or BypassB;
-write_sig_ored  <= D_write_sig ;
+write_sig_ored  <= D_write_sig  ;
 
 TRI_BUFFER: 
 process(D_OE,TEMP_SUM)

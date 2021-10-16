@@ -102,11 +102,11 @@ STATUS_REG:
 process (clk,reset,IR(15))
 begin
 if reset = '1' then
-    L_z <= '1';
+    L_z <= '0';
     L_n <= '0';
     L_o <= '0';
     elsif rising_edge(clk) then
-        if (IR(15) = '0' and upc = "00" ) then  -- performing alu instr and after the calculation
+        if (IR(15) = '0' and upc = "01"   ) then  -- performing alu instr and after the calculation
             L_z <= Z_F_temp;
             L_n <= N_F_temp;
             L_o <= O_F_temp;
