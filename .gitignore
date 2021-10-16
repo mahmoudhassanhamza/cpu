@@ -3,14 +3,12 @@
 *.mti
 *.mpf
 *.wlf
-<<<<<<< HEAD
 *.qpf
 *.qws
 vsim.wlf
 db
 work
 output_files
-=======
 vsim.wlf
 db
 *.qpf
@@ -18,4 +16,3 @@ db
 wlft3xdshm
 wlftx6vbf0
 output_files
->>>>>>> data_path
