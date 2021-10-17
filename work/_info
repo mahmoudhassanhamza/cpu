@@ -1458,7 +1458,7 @@ R105
 R106
 R6
 <<<<<<< HEAD
-Z230 V85c3YX?5XLP<VliIDSQU82
+V85c3YX?5XLP<VliIDSQU82
 R23
 32
 R227
@@ -1470,9 +1470,9 @@ R6
 !s100 nR^N]nA9=@6VBaFN0i=_j3
 !i10b 1
 <<<<<<< HEAD
-Z231 !s108 1634133987.202000
-Z232 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/MROM_tb.vhd|
-Z233 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/MROM_tb.vhd|
+Z230 !s108 1634133987.202000
+Z231 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/MROM_tb.vhd|
+Z232 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/MROM_tb.vhd|
 R27
 R28
 R6
@@ -1482,11 +1482,11 @@ R150
 R123
 R109
 R111
-Z234 DEx4 work 7 mrom_tb 0 22 bU4:7RUW]CCjj?Z^b8NL<3
+Z233 DEx4 work 7 mrom_tb 0 22 bU4:7RUW]CCjj?Z^b8NL<3
 l26
 L12
-Z235 Vf]Nz2KaeX4?zUzla9dASa3
-Z236 !s100 mgY;=`G43Hb?B5[OQR2aT1
+Z234 Vf]Nz2KaeX4?zUzla9dASa3
+Z235 !s100 mgY;=`G43Hb?B5[OQR2aT1
 R4
 Abehave
 R104
@@ -1494,14 +1494,14 @@ R136
 R110
 R105
 R106
-R234
+R233
 l26
 L12
-R235
+R234
 <<<<<<< HEAD
+R230
 R231
 R232
-R233
 R27
 R28
 R6
@@ -1514,7 +1514,7 @@ R108
 l0
 L12
 R117
-Z237 VoHnSEV=2MS7:HKDck`YP13
+Z236 VoHnSEV=2MS7:HKDck`YP13
 R23
 32
 R32
@@ -1537,7 +1537,7 @@ R6
 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/debug_std_logic_1164.vhd|
 !s108 1634133985.835000
 <<<<<<< HEAD
-Z238 w1634062826
+Z237 w1634062826
 R123
 R109
 R111
@@ -1553,13 +1553,13 @@ R138
 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file.vhd
 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file.vhd
 <<<<<<< HEAD
-Z239 !s108 1634133986.278000
+Z238 !s108 1634133986.278000
 R25
 R26
 R4
-Z240 !s108 1634132474.605000
-Z241 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file.vhd|
-Z242 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file.vhd|
+Z239 !s108 1634132474.605000
+Z240 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file.vhd|
+Z241 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file.vhd|
 R6
 <<<<<<< HEAD
 R123
@@ -1571,13 +1571,13 @@ R105
 R106
 R6
 <<<<<<< HEAD
-R239
+R238
 R25
 R26
 R4
+R239
 R240
 R241
-R242
 R6
 <<<<<<< HEAD
 R123
@@ -1586,16 +1586,16 @@ R108
 R109
 R111
 32
-Z243 w1632774745
+Z242 w1632774745
 R36
 R21
 R22
 l0
 L8
 R114
-Z244 VMAWQI^>?jc87QJY_Q1?hz2
+Z243 VMAWQI^>?jc87QJY_Q1?hz2
 R23
-Z245 !s108 1634133854.695000
+Z244 !s108 1634133854.695000
 R18
 R19
 R4
@@ -1606,17 +1606,17 @@ R104
 R105
 R106
 R138
-Z246 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file_tb.vhd
-Z247 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file_tb.vhd
+Z245 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file_tb.vhd
+Z246 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file_tb.vhd
 l0
 L8
-R244
-Z248 !s100 4_LT6i;DcnYBmK?6>V?Om0
+R243
+Z247 !s100 4_LT6i;DcnYBmK?6>V?Om0
 R23
 32
-Z249 !s108 1634132474.728000
-Z250 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file_tb.vhd|
-Z251 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file_tb.vhd|
+Z248 !s108 1634132474.728000
+Z249 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file_tb.vhd|
+Z250 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/register_file_tb.vhd|
 <<<<<<< HEAD
 R123
 R107
@@ -1628,9 +1628,9 @@ R112
 l40
 L13
 R113
-Z252 VN54G7KK@jKd8XSoJ]lano2
+Z251 VN54G7KK@jKd8XSoJ]lano2
 R23
-R245
+R244
 R18
 R19
 R4
@@ -1639,19 +1639,19 @@ R103
 R104
 R105
 R106
-Z253 DEx4 work 16 register_file_tb 0 22 MAWQI^>?jc87QJY_Q1?hz2
+Z252 DEx4 work 16 register_file_tb 0 22 MAWQI^>?jc87QJY_Q1?hz2
 l40
 L13
-R252
+R251
 R111
 R23
 32
+R248
 R249
 R250
-R251
 R6
 <<<<<<< HEAD
-R243
+R242
 R123
 R107
 R108
@@ -1663,10 +1663,10 @@ R22
 l0
 L8
 R114
-R244
+R243
 R23
 32
-Z254 !s108 1634133986.369000
+Z253 !s108 1634133986.369000
 R18
 R19
 R4
@@ -1677,17 +1677,17 @@ R104
 R105
 R106
 R138
+R245
 R246
-R247
 l0
 L8
-R244
-R248
+R243
+R247
 R23
 32
-Z255 !s108 1634131979.895000
+Z254 !s108 1634131979.895000
+R249
 R250
-R251
 <<<<<<< HEAD
 R123
 R107
@@ -1698,28 +1698,28 @@ R112
 l40
 L13
 R113
+R251
+R23
+32
+R253
+R18
+R19
+R4
+R110
+R103
+R104
+R105
+R106
 R252
+l40
+L13
+R251
+R111
 R23
 32
 R254
-R18
-R19
-R4
-R110
-R103
-R104
-R105
-R106
-R253
-l40
-L13
-R252
-R111
-R23
-32
-R255
+R249
 R250
-R251
 R6
 <<<<<<< HEAD
 R108
@@ -1728,7 +1728,7 @@ R123
 R109
 R111
 32
-Z256 w1633953801
+Z255 w1633953801
 R4
 R104
 R136
@@ -1736,14 +1736,14 @@ R110
 R105
 R106
 32
+R255
+R6
+<<<<<<< HEAD
+Z256 !s108 1633954012.231000
+R4
 R256
 R6
 <<<<<<< HEAD
-Z257 !s108 1633954012.231000
-R4
-R257
-R6
-<<<<<<< HEAD
 R108
 R150
 R123
@@ -1757,12 +1757,12 @@ R105
 R106
 R6
 <<<<<<< HEAD
-R257
+R256
 R4
-R257
+R256
 R6
 <<<<<<< HEAD
-Z258 w1633897852
+Z257 w1633897852
 R150
 R108
 R109
@@ -1780,13 +1780,13 @@ R138
 8D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/ripple_carry_adder.vhd
 FD:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/ripple_carry_adder.vhd
 <<<<<<< HEAD
-Z259 !s108 1634133986.100000
+Z258 !s108 1634133986.100000
 R11
 R12
 R4
-Z260 !s108 1634132474.860000
-Z261 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/ripple_carry_adder.vhd|
-Z262 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/ripple_carry_adder.vhd|
+Z259 !s108 1634132474.860000
+Z260 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/ripple_carry_adder.vhd|
+Z261 !s107 D:/Abroad/EIT/KTH/Digital Design and Validation/IL2203/cpu/ripple_carry_adder.vhd|
 R6
 <<<<<<< HEAD
 R150
@@ -1800,13 +1800,13 @@ R105
 R106
 R6
 <<<<<<< HEAD
-R259
+R258
 R11
 R12
 R4
+R259
 R260
 R261
-R262
 R6
 <<<<<<< HEAD
 R9
@@ -1819,11 +1819,11 @@ R7
 R8
 l0
 L7
-R253
+R252
 R106
 R23
 32
-Z263 !s108 1634133986.190000
+Z262 !s108 1634133986.190000
 R2
 R3
 R4
@@ -1841,22 +1841,22 @@ R109
 R102
 R23
 32
-Z264 !s108 1634132475.005000
-Z265 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:\Abroad\EIT\KTH\Digital Design and Validation\IL2203\cpu\ripple_carry_adder_tb.vhd|
-Z266 !s107 D:\Abroad\EIT\KTH\Digital Design and Validation\IL2203\cpu\ripple_carry_adder_tb.vhd|
+Z263 !s108 1634132475.005000
+Z264 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:\Abroad\EIT\KTH\Digital Design and Validation\IL2203\cpu\ripple_carry_adder_tb.vhd|
+Z265 !s107 D:\Abroad\EIT\KTH\Digital Design and Validation\IL2203\cpu\ripple_carry_adder_tb.vhd|
 <<<<<<< HEAD
 R107
 R108
 R109
 R111
-R248
+R247
 l26
 L11
 R110
 R105
 R23
 32
-R263
+R262
 R2
 R3
 R4
@@ -1871,51 +1871,51 @@ R108
 R101
 R23
 32
+R263
 R264
 R265
-R266
 R6
 <<<<<<< HEAD
-Z267 w1634129388
+Z266 w1634129388
 R150
-Z268 DPx12 modelsim_lib 4 util 0 22 Ci0SSDmVf2K[lFkJZoo=62
+Z267 DPx12 modelsim_lib 4 util 0 22 Ci0SSDmVf2K[lFkJZoo=62
 R108
 R159
 R109
 R111
 R36
-Z269 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/test_cpu_advanced.vhd
-Z270 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/test_cpu_advanced.vhd
+Z268 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/test_cpu_advanced.vhd
+Z269 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/test_cpu_advanced.vhd
 R4
 w1634062862
 R136
-R268
+R267
 R104
 R127
 R105
 R106
 R36
+R268
 R269
-R270
 <<<<<<< HEAD
-Z271 !s108 1634133987.111000
-Z272 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/test_cpu_advanced.vhd|
-Z273 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/test_cpu_advanced.vhd|
+Z270 !s108 1634133987.111000
+Z271 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/test_cpu_advanced.vhd|
+Z272 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/test_cpu_advanced.vhd|
 R4
-Z274 !s108 1634079585.515000
+Z273 !s108 1634079585.515000
+R271
 R272
-R273
 R6
 <<<<<<< HEAD
 R150
-R268
+R267
 R108
 R159
 R109
 R111
 R4
 R136
-R268
+R267
 R104
 R127
 R105
@@ -1924,22 +1924,22 @@ R6
 <<<<<<< HEAD
 R23
 32
+R270
 R271
 R272
-R273
 R27
 R28
 R4
 R23
 32
-R274
-R272
 R273
+R271
+R272
 R27
 R28
 R6
-Z275 !s100 fL<eiOUih;<gfEUXdLg7^1
-R275
+Z274 !s100 fL<eiOUih;<gfEUXdLg7^1
+R274
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
 R6
 !s108 1633524336.658000
@@ -1993,9 +1993,9 @@ R6
 !i10b 1
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
 R6
-Z276 !s108 1633514725.590000
-Z277 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\code.vhd|
-Z278 !s107 C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\code.vhd|
+Z275 !s108 1633514725.590000
+Z276 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\code.vhd|
+Z277 !s107 C:\Users\mahmo\OneDrive\Desktop\kth\Digital Design\lab2\code.vhd|
 !i10b 1
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
 R23
@@ -2022,7 +2022,7 @@ R6
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
 l0
 L9
-Z279 V[jHa_TOG8H=T<[^OW6cOe1
+Z278 V[jHa_TOG8H=T<[^OW6cOe1
 R23
 32
 R6
@@ -2030,14 +2030,14 @@ R6
 R27
 R28
 R6
-Z280 !s100 9AB`9;M@AB5JmNOoZb=gI2
+Z279 !s100 9AB`9;M@AB5JmNOoZb=gI2
 !i10b 1
 Astructure
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
-Z281 DEx4 work 3 alu 0 22 [jHa_TOG8H=T<[^OW6cOe1
+Z280 DEx4 work 3 alu 0 22 [jHa_TOG8H=T<[^OW6cOe1
 l42
 L23
-Z282 VA26N?JAMiD58K9>iHRco;1
+Z281 VA26N?JAMiD58K9>iHRco;1
 R23
 32
 R6
@@ -2045,7 +2045,7 @@ R6
 R27
 R28
 R6
-Z283 !s100 nG4j[:l?_G3ZM8KOzleCl2
+Z282 !s100 nG4j[:l?_G3ZM8KOzleCl2
 !i10b 1
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
 R27
@@ -2083,14 +2083,14 @@ R6
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
 l0
 L6
-Z284 V<cfBXkzRnECgdQb90=Km>1
+Z283 V<cfBXkzRnECgdQb90=Km>1
 R23
 32
 R6
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
 l0
 L10
-Z285 VIX_fL[knm6:UV:KhLo:ck1
+Z284 VIX_fL[knm6:UV:KhLo:ck1
 R23
 32
 R6
@@ -2098,7 +2098,7 @@ R6
 R27
 R28
 R6
-Z286 !s100 ;1A5hOJUWZGXRTSlcPTb83
+Z285 !s100 ;1A5hOJUWZGXRTSlcPTb83
 !i10b 1
 Abehave
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
@@ -2212,7 +2212,7 @@ R6
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
 l0
 L8
-Z287 VFTIKL2W=g@5LCB0[h792V2
+Z286 VFTIKL2W=g@5LCB0[h792V2
 R23
 32
 R6
@@ -2220,35 +2220,35 @@ R6
 R27
 R28
 R6
-Z288 !s100 >VBlRAUZnlEo?_EOdLzd90
+Z287 !s100 >VBlRAUZnlEo?_EOdLzd90
 !i10b 1
 Abehave
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
-Z289 DEx4 work 23 micro_assembly_code_rom 0 22 FTIKL2W=g@5LCB0[h792V2
+Z288 DEx4 work 23 micro_assembly_code_rom 0 22 FTIKL2W=g@5LCB0[h792V2
 l293
 L17
 R6
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
 R23
 32
-Z290 !s108 1634079585.579000
+Z289 !s108 1634079585.579000
+R231
 R232
-R233
 R27
 R28
 R6
-Z291 !s100 V<1K]4@k0z`E7>I>ROlM71
+Z290 !s100 V<1K]4@k0z`E7>I>ROlM71
 !i10b 1
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
 R23
 32
-R290
+R289
+R231
 R232
-R233
 R27
 R28
 R6
-R236
+R235
 !i10b 1
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
 R27
@@ -2265,7 +2265,7 @@ R6
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
 l0
 L8
-Z292 V47jYR=l[6?[j3K>?J98H>2
+Z291 V47jYR=l[6?[j3K>?J98H>2
 R23
 32
 R6
@@ -2273,14 +2273,14 @@ R6
 R27
 R28
 R6
-Z293 !s100 ^Q2AiQc4m2dz9^YNfT=V:1
+Z292 !s100 ^Q2AiQc4m2dz9^YNfT=V:1
 !i10b 1
 Abehave
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
-Z294 DEx4 work 13 register_file 0 22 47jYR=l[6?[j3K>?J98H>2
+Z293 DEx4 work 13 register_file 0 22 47jYR=l[6?[j3K>?J98H>2
 l29
 L25
-Z295 VhHIRaDR^?`]BAfYKFAeZT0
+Z294 VhHIRaDR^?`]BAfYKFAeZT0
 R23
 32
 R6
@@ -2288,7 +2288,7 @@ R6
 R27
 R28
 R6
-Z296 !s100 U4JlDObE8g[LK]o5Cb>Oi1
+Z295 !s100 U4JlDObE8g[LK]o5Cb>Oi1
 !i10b 1
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
 R27
@@ -2348,7 +2348,7 @@ R6
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
 l0
 L6
-Z297 VVI0ae?3;MLkjhHNe]hlmi0
+Z296 VVI0ae?3;MLkjhHNe]hlmi0
 R23
 32
 R6
@@ -2356,14 +2356,14 @@ R6
 R27
 R28
 R6
-Z298 !s100 o;^k9S5=2[aT=YcV;4N`[0
+Z297 !s100 o;^k9S5=2[aT=YcV;4N`[0
 !i10b 1
 Astructure
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
-Z299 DEx4 work 18 ripple_carry_adder 0 22 VI0ae?3;MLkjhHNe]hlmi0
+Z298 DEx4 work 18 ripple_carry_adder 0 22 VI0ae?3;MLkjhHNe]hlmi0
 l29
 L15
-Z300 Vi;FK^f4H]dc:9lhQ=3>DG1
+Z299 Vi;FK^f4H]dc:9lhQ=3>DG1
 R23
 32
 R6
@@ -2371,7 +2371,7 @@ R6
 R27
 R28
 R6
-Z301 !s100 dFn?P_Q3`fDfMgYj1UD<_0
+Z300 !s100 dFn?P_Q3`fDfMgYj1UD<_0
 !i10b 1
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
 R27
@@ -2387,7 +2387,7 @@ R6
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
 l0
 L9
-Z302 VIo5X6:lE]ibQZ8h`34=C62
+Z301 VIo5X6:lE]ibQZ8h`34=C62
 R23
 32
 R6
@@ -2395,14 +2395,14 @@ R6
 R27
 R28
 R6
-Z303 !s100 4WRl=X5A@A>YIKlf<]fZ53
+Z302 !s100 4WRl=X5A@A>YIKlf<]fZ53
 !i10b 1
 Atest_cpu_advanced
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
-Z304 DEx4 work 4 test 0 22 Io5X6:lE]ibQZ8h`34=C62
+Z303 DEx4 work 4 test 0 22 Io5X6:lE]ibQZ8h`34=C62
 l60
 L12
-Z305 V]iRn0_4L3VY>6Gc904zdz3
+Z304 V]iRn0_4L3VY>6Gc904zdz3
 R6
 >>>>>>> 78dee7a5b1b4a9ab99ac9795b866932546416e34
 R6
@@ -2431,22 +2431,22 @@ R6
 R27
 R28
 R6
-Z306 !s100 UZ^bWPK;R]WH<K=FAAi2a1
+Z305 !s100 UZ^bWPK;R]WH<K=FAAi2a1
 !i10b 1
 Astructure
 R108
 R109
 R106
-Z307 DEx4 work 18 ripple_carry_adder 0 22 lV=kho@:GcUL@R2fzNW>[1
+Z306 DEx4 work 18 ripple_carry_adder 0 22 lV=kho@:GcUL@R2fzNW>[1
 l28
 L15
-Z308 VdZnLLQznOWWL2]dN:g9bi3
+Z307 VdZnLLQznOWWL2]dN:g9bi3
 R23
 32
 >>>>>>> data_path
 l0
 L6
-Z309 VlV=kho@:GcUL@R2fzNW>[1
+Z308 VlV=kho@:GcUL@R2fzNW>[1
 R23
 32
 R6
@@ -2465,7 +2465,7 @@ R111
 R27
 R28
 R6
-R248
+R247
 !i10b 1
 Abehave
 R110
@@ -2473,16 +2473,16 @@ R107
 R108
 R109
 R106
-R253
+R252
 l40
 L13
-R252
+R251
 R23
 32
 >>>>>>> data_path
 l0
 L8
-R244
+R243
 R23
 32
 R6
@@ -2497,41 +2497,41 @@ R36
 R27
 R28
 R6
-Z310 !s100 C1@BiDULh_O76=jif0RYK0
+Z309 !s100 C1@BiDULh_O76=jif0RYK0
 !i10b 1
 Abehave
 R110
 R109
 R106
-Z311 DEx4 work 13 register_file 0 22 @Dd[3>iVaPTANn3j`eIS82
+Z310 DEx4 work 13 register_file 0 22 @Dd[3>iVaPTANn3j`eIS82
 l29
 L25
 >>>>>>> data_path
 l0
 L8
-Z312 V@Dd[3>iVaPTANn3j`eIS82
+Z311 V@Dd[3>iVaPTANn3j`eIS82
 R4
 R6
 >>>>>>> data_path
 R27
 R28
 R6
-R306
+R305
 !i10b 1
 Astructure
 R104
 R105
 R106
-R307
+R306
 l28
 L15
-R308
+R307
 R23
 32
 >>>>>>> data_path
 l0
 L6
-R309
+R308
 R23
 32
 R6
@@ -2550,7 +2550,7 @@ R111
 R27
 R28
 R6
-R248
+R247
 !i10b 1
 Abehave
 R110
@@ -2558,16 +2558,16 @@ R103
 R104
 R105
 R106
-R253
+R252
 l40
 L13
-R252
+R251
 R23
 32
 >>>>>>> data_path
 l0
 L8
-R244
+R243
 R6
 >>>>>>> data_path
 R6
@@ -2592,22 +2592,22 @@ R6
 >>>>>>> data_path
 l0
 L5
-R237
+R236
 R4
 R6
-R310
+R309
 !i10b 1
 Abehave
 R110
 R105
 R106
-R311
+R310
 l29
 L25
 >>>>>>> data_path
 l0
 L8
-R312
+R311
 R23
 32
 R6
@@ -2643,7 +2643,7 @@ R23
 >>>>>>> data_path
 l0
 L5
-R237
+R236
 R6
 >>>>>>> data_path
 R6
@@ -2686,9 +2686,9 @@ R106
 R36
 >>>>>>> data_path
 R6
+R275
 R276
 R277
-R278
 !i10b 1
 >>>>>>> data_path
 R104
@@ -2759,8 +2759,8 @@ R123
 R109
 R111
 R36
-Z313 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider.vhd
-Z314 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider.vhd
+Z312 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider.vhd
+Z313 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/Clock_Divider.vhd
 l0
 L7
 R159
@@ -2798,7 +2798,7 @@ R157
 R27
 R28
 R6
-Z315 !s100 ^TH8@8AUO7R<4`d`I9_kB1
+Z314 !s100 ^TH8@8AUO7R<4`d`I9_kB1
 !i10b 1
 Astructure
 R131
@@ -2806,10 +2806,10 @@ R132
 R108
 R109
 R111
-Z316 DEx4 work 3 alu 0 22 7N>G_j3;94f_IPfALG]^R2
+Z315 DEx4 work 3 alu 0 22 7N>G_j3;94f_IPfALG]^R2
 l41
 L22
-Z317 Vbfn>=<hdl31Y<h2mLk=E=0
+Z316 Vbfn>=<hdl31Y<h2mLk=E=0
 R23
 32
 R101
@@ -2841,8 +2841,8 @@ R110
 R105
 R106
 R36
+R312
 R313
-R314
 l0
 L7
 R159
@@ -2880,7 +2880,7 @@ R157
 R27
 R28
 R6
-R315
+R314
 !i10b 1
 Astructure
 R131
@@ -2888,10 +2888,10 @@ R132
 R104
 R105
 R106
-R316
+R315
 l41
 L22
-R317
+R316
 R23
 32
 R93
@@ -2912,11 +2912,11 @@ R133
 R134
 l0
 L9
+R278
 R279
-R280
 R23
 32
-Z318 !s108 1634378643.187000
+Z317 !s108 1634464797.537000
 R94
 R95
 R27
@@ -2929,21 +2929,21 @@ R132
 R104
 R105
 R106
-R281
+R280
 l42
 L23
+R281
 R282
-R283
 R23
 32
-R318
+R317
 R94
 R95
 R27
 R28
 !i10b 1
 Ealu_tb
-Z319 w1634378254
+Z318 w1634378254
 R113
 R103
 R104
@@ -2958,7 +2958,7 @@ R147
 R151
 R23
 32
-Z320 !s108 1634378643.247000
+Z319 !s108 1634464797.599000
 R164
 R165
 R27
@@ -2977,7 +2977,7 @@ R156
 R157
 R23
 32
-R320
+R319
 R164
 R165
 R27
@@ -2991,15 +2991,15 @@ R110
 R105
 R106
 R36
+R312
 R313
-R314
 l0
 L7
 R159
 R160
 R23
 32
-Z321 !s108 1634378643.897000
+Z320 !s108 1634464799.086000
 R125
 R126
 R27
@@ -3018,7 +3018,7 @@ R129
 R130
 R23
 32
-R321
+R320
 R125
 R126
 R27
@@ -3037,7 +3037,7 @@ R167
 R169
 R23
 32
-Z322 !s108 1634378643.958000
+Z321 !s108 1634464799.147000
 R81
 R82
 R27
@@ -3053,7 +3053,7 @@ R174
 R175
 R23
 32
-R322
+R321
 R81
 R82
 R27
@@ -3069,7 +3069,7 @@ R177
 R178
 l0
 L6
-R284
+R283
 R179
 R23
 32
@@ -3078,9 +3078,9 @@ R27
 R28
 R40
 !i10b 1
-!s108 1634378643.779000
+!s108 1634464798.964000
 Ecpu
-Z323 w1634133945
+Z322 w1634133945
 R136
 R104
 R127
@@ -3088,15 +3088,15 @@ R110
 R105
 R106
 R36
-Z324 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/cpu.vhd
-Z325 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/cpu.vhd
+Z323 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/cpu.vhd
+Z324 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/cpu.vhd
 l0
 L10
+R284
 R285
-R286
 R23
 32
-Z326 !s108 1634378644.083000
+Z325 !s108 1634464799.266000
 R181
 R182
 R27
@@ -3116,29 +3116,29 @@ R183
 R184
 R23
 32
-R326
-R181
-R182
-R27
-R28
-!i10b 1
-Ecpu
-R323
-R136
-R104
-R127
-R110
-R105
-R106
-R36
-R324
 R325
+R181
+R182
+R27
+R28
+!i10b 1
+Ecpu
+R322
+R136
+R104
+R127
+R110
+R105
+R106
+R36
+R323
+R324
 l0
 L10
+R284
 R285
-R286
 R23
-Z327 !s108 1634378433.591000
+Z326 !s108 1634378433.591000
 R181
 R182
 R27
@@ -3157,7 +3157,7 @@ L20
 R183
 R184
 R23
-R327
+R326
 R181
 R182
 R27
@@ -3175,10 +3175,67 @@ R74
 l0
 L9
 R192
-Z328 !s100 8hRd[zCgfhz]3XJ:kk]aS2
+Z327 !s100 8hRd[zCgfhz]3XJ:kk]aS2
 R23
 32
-Z329 !s108 1634378643.719000
+Z328 !s108 1634464798.899000
+R76
+R77
+R27
+R28
+!i10b 1
+Abehave
+R136
+R104
+R105
+R106
+R185
+l88
+L37
+R186
+R187
+R23
+32
+R328
+R76
+R77
+R27
+R28
+!i10b 1
+Edata_path
+R137
+R136
+R104
+R105
+R106
+R138
+R193
+R188
+l0
+L9
+R192
+R327
+R23
+32
+R189
+R190
+!s108 1634132376.896000
+Edata_path
+R191
+R136
+R104
+R105
+R106
+R36
+R73
+R74
+l0
+L9
+R192
+R327
+R23
+32
+Z329 !s108 1634378433.232000
 R76
 R77
 R27
@@ -3202,60 +3259,44 @@ R77
 R27
 R28
 !i10b 1
-Edata_path
-R137
-R136
-R104
-R105
-R106
-R138
-R193
-R188
-l0
-L9
-R192
-R328
-R23
-32
-R189
-R190
-!s108 1634132376.896000
-Edata_path
-R191
-R136
+Edata_path_tb
+R196
+R110
+R103
 R104
 R105
 R106
 R36
-R73
-R74
+R59
+R60
 l0
-L9
-R192
-R328
+L8
+R61
+R62
 R23
 32
-Z330 !s108 1634378433.232000
-R76
-R77
+Z330 !s108 1634464799.024000
+R50
+R51
 R27
 R28
 !i10b 1
 Abehave
-R136
+R110
+R103
 R104
 R105
 R106
-R185
-l88
-L37
-R186
-R187
+R52
+l52
+L13
+R53
+R57
 R23
 32
 R330
-R76
-R77
+R50
+R51
 R27
 R28
 !i10b 1
@@ -3275,7 +3316,7 @@ R61
 R62
 R23
 32
-Z331 !s108 1634378643.834000
+Z331 !s108 1634378433.346000
 R50
 R51
 R27
@@ -3300,47 +3341,6 @@ R51
 R27
 R28
 !i10b 1
-Edata_path_tb
-R196
-R110
-R103
-R104
-R105
-R106
-R36
-R59
-R60
-l0
-L8
-R61
-R62
-R23
-32
-Z332 !s108 1634378433.346000
-R50
-R51
-R27
-R28
-!i10b 1
-Abehave
-R110
-R103
-R104
-R105
-R106
-R52
-l52
-L13
-R53
-R57
-R23
-32
-R332
-R50
-R51
-R27
-R28
-!i10b 1
 Edp
 R6
 Efull_adder
@@ -3357,7 +3357,7 @@ R210
 R119
 R23
 32
-Z333 !s108 1634378643.369000
+Z332 !s108 1634464797.716000
 R47
 R48
 R27
@@ -3374,7 +3374,7 @@ R121
 R122
 R23
 32
-R333
+R332
 R47
 R48
 R27
@@ -3394,7 +3394,7 @@ R219
 R115
 R23
 32
-Z334 !s108 1634378643.427000
+Z333 !s108 1634464797.771000
 R43
 R44
 R27
@@ -3411,7 +3411,7 @@ R117
 R118
 R23
 32
-R334
+R333
 R43
 R44
 R27
@@ -3420,7 +3420,7 @@ R28
 Pmicro_assembly_code
 R6
 Emicro_assembly_code_rom
-Z335 w1634378641
+Z334 w1634379234
 R104
 R136
 R110
@@ -3431,11 +3431,11 @@ R225
 R226
 l0
 L8
+R286
 R287
-R288
 R23
 32
-Z336 !s108 1634378644.016000
+Z335 !s108 1634464799.200000
 R228
 R229
 R27
@@ -3447,39 +3447,39 @@ R136
 R110
 R105
 R106
-R289
+R288
 l263
 L17
-R230
+Vh?k0zIjZ?z=m;=L<lJ;Kb2
 R23
 32
-R336
+R335
 R228
 R229
 R27
 R28
-!s100 a>RJUDnEA8eD;_BPXOfG22
+!s100 8z4JE:9k8>ND5V>K8F>4[0
 !i10b 1
 Emrom_tb
-Z337 w1634057944
+Z336 w1634057944
 R104
 R136
 R110
 R105
 R106
 R36
-Z338 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/MROM_tb.vhd
-Z339 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/MROM_tb.vhd
+Z337 8C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/MROM_tb.vhd
+Z338 FC:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/MROM_tb.vhd
 l0
 L8
-Z340 VbU4:7RUW]CCjj?Z^b8NL<3
-R291
+Z339 VbU4:7RUW]CCjj?Z^b8NL<3
+R290
 R23
 32
 !i10b 1
-Z341 !s108 1634378644.215000
-R232
-Z342 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/MROM_tb.vhd|
+Z340 !s108 1634464799.399000
+R231
+Z341 !s107 C:/Users/mahmo/OneDrive/Desktop/kth/Digital Design/lab2/MROM_tb.vhd|
 R27
 R28
 Abehave
@@ -3488,38 +3488,38 @@ R136
 R110
 R105
 R106
-R234
+R233
 l26
 L12
+R234
 R235
-R236
 R23
 32
 !i10b 1
-R341
-R232
-R342
-R27
-R28
-Emrom_tb
-R337
-R104
-R136
-R110
-R105
-R106
-R36
-R338
-R339
-l0
-L8
 R340
-R291
+R231
+R341
+R27
+R28
+Emrom_tb
+R336
+R104
+R136
+R110
+R105
+R106
+R36
+R337
+R338
+l0
+L8
+R339
+R290
 R23
 32
-Z343 !s108 1634378433.718000
+Z342 !s108 1634378433.718000
+R231
 R232
-R233
 R27
 R28
 !i10b 1
@@ -3529,16 +3529,16 @@ R136
 R110
 R105
 R106
-R234
+R233
 l26
 L12
+R234
 R235
-R236
 R23
 32
-R343
+R342
+R231
 R232
-R233
 R27
 R28
 !i10b 1
@@ -3553,12 +3553,53 @@ R37
 R38
 l0
 L5
-R237
+R236
 R112
 R23
 32
 b1
-Z344 !s108 1634378432.812000
+Z343 !s108 1634378432.812000
+R32
+R33
+R27
+R28
+!i10b 1
+Bbody
+R113
+R103
+R105
+R106
+R104
+l0
+L12
+R114
+R123
+R23
+32
+R343
+R32
+R33
+R27
+R28
+nbody
+!i10b 1
+Pprint
+R103
+R105
+R106
+R104
+R35
+R36
+R37
+R38
+l0
+L5
+R236
+R112
+R23
+32
+b1
+Z344 !s108 1634464797.657000
 R32
 R33
 R27
@@ -3583,49 +3624,8 @@ R27
 R28
 nbody
 !i10b 1
-Pprint
-R103
-R105
-R106
-R104
-R35
-R36
-R37
-R38
-l0
-L5
-R237
-R112
-R23
-32
-b1
-Z345 !s108 1634378643.306000
-R32
-R33
-R27
-R28
-!i10b 1
-Bbody
-R113
-R103
-R105
-R106
-R104
-l0
-L12
-R114
-R123
-R23
-32
-R345
-R32
-R33
-R27
-R28
-nbody
-!i10b 1
 Eregister_file
-R238
+R237
 R110
 R105
 R106
@@ -3634,11 +3634,11 @@ R29
 R30
 l0
 L8
+R291
 R292
-R293
 R23
 32
-Z346 !s108 1634378643.597000
+Z345 !s108 1634464798.767000
 R25
 R26
 R27
@@ -3648,21 +3648,21 @@ Abehave
 R110
 R105
 R106
-R294
+R293
 l29
 L25
+R294
 R295
-R296
 R23
 32
-R346
+R345
 R25
 R26
 R27
 R28
 !i10b 1
 Eregister_file_tb
-R243
+R242
 R110
 R103
 R104
@@ -3673,11 +3673,11 @@ R21
 R22
 l0
 L8
-R244
-R248
+R243
+R247
 R23
 32
-Z347 !s108 1634378433.166000
+Z346 !s108 1634378433.166000
 R18
 R19
 R27
@@ -3689,10 +3689,51 @@ R103
 R104
 R105
 R106
-R253
+R252
 l40
 L13
+R251
+R111
+R23
+32
+R346
+R18
+R19
+R27
+R28
+!i10b 1
+Eregister_file_tb
+R242
+R110
+R103
+R104
+R105
+R106
+R36
+R21
+R22
+l0
+L8
+R243
+R247
+R23
+32
+Z347 !s108 1634464798.835000
+R18
+R19
+R27
+R28
+!i10b 1
+Abehave
+R110
+R103
+R104
+R105
+R106
 R252
+l40
+L13
+R251
 R111
 R23
 32
@@ -3702,51 +3743,10 @@ R19
 R27
 R28
 !i10b 1
-Eregister_file_tb
-R243
-R110
-R103
-R104
-R105
-R106
-R36
-R21
-R22
-l0
-L8
-R244
-R248
-R23
-32
-Z348 !s108 1634378643.657000
-R18
-R19
-R27
-R28
-!i10b 1
-Abehave
-R110
-R103
-R104
-R105
-R106
-R253
-l40
-L13
-R252
-R111
-R23
-32
-R348
-R18
-R19
-R27
-R28
-!i10b 1
 Erf_mem
 R6
 Eripple_carry_adder
-R258
+R257
 R136
 R104
 R105
@@ -3756,11 +3756,11 @@ R14
 R15
 l0
 L6
+R296
 R297
-R298
 R23
 32
-Z349 !s108 1634378643.483000
+Z348 !s108 1634464797.828000
 R11
 R12
 R27
@@ -3771,14 +3771,14 @@ R136
 R104
 R105
 R106
-R299
+R298
 l29
 L15
+R299
 R300
-R301
 R23
 32
-R349
+R348
 R11
 R12
 R27
@@ -3799,7 +3799,7 @@ R109
 R102
 R23
 32
-Z350 !s108 1634378643.539000
+Z349 !s108 1634464798.709000
 R2
 R3
 R27
@@ -3817,52 +3817,52 @@ R108
 R101
 R23
 32
-R350
+R349
 R2
 R3
 R27
 R28
 !i10b 1
 Etest
-R267
+R266
 R136
-R268
+R267
 R104
 R127
 R105
 R106
 R36
+R268
 R269
-R270
 l0
 L9
+R301
 R302
-R303
 R23
 32
-Z351 !s108 1634378644.148000
+Z350 !s108 1634464799.331000
+R271
 R272
-R273
 R27
 R28
 !i10b 1
 Atest_cpu_advanced
 R136
-R268
+R267
 R104
 R127
 R105
 R106
-R304
+R303
 l60
 L12
-R305
-R275
+R304
+R274
 R23
 32
-R351
+R350
+R271
 R272
-R273
 R27
 R28
 !i10b 1
