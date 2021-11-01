@@ -66,7 +66,7 @@ end component;
     signal upc                          : std_logic_vector(1 downto 0 ) := "00";
     signal A_2_temp                     : std_logic;
     begin
-SE_DIN    <= std_logic_vector(resize(signed(IR(9 downto 0)),N));
+SE_DIN    <= std_logic_vector(resize(signed(IR(8 downto 0)),N));
 SE_OFFSET <= std_logic_vector(resize(signed(IR(11 downto 0)),N));
 InstructionREGISTER:
 process (upc,reset,Din)

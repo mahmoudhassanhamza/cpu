@@ -9,7 +9,8 @@ package code is
     subtype opcode is std_logic_vector(3 downto 0);
     subtype reg_code   is std_logic_vector(2 downto 0);
     subtype instruction is std_logic_vector(15 downto 0);
-    subtype immediate   is std_logic_vector(8 downto 0);
+    subtype immediate  is std_logic_vector(8 downto 0);
+    -- type program is array (natural range <>) of std_logic_vector(15 downto 0);
     type Minstruction is record 
     -- D_WD:  std_logic_vector (N-1 downto 0) ;
     IE: std_logic;
@@ -35,6 +36,7 @@ constant iOR    : opcode := "0011";
 constant iXOR   : opcode := "0100";
 constant iNOT   : opcode := "0101";
 constant MOV    : opcode := "0110";
+constant NOP    : opcode := "0111";
 constant LD     : opcode := "1000";
 constant ST     : opcode := "1001";
 constant LDI    : opcode := "1010";
@@ -57,3 +59,68 @@ constant R6:reg_code :="110";
 constant R7:reg_code :="111";
 end code;
 
+
+
+
+
+
+-- ARCHITECTURE fake OF memory IS
+-- type program is array (natural range <>) of std_logic_vector(15 downto 0);
+
+-- 	SIGNAL RAM	: program (0 to 255):=(
+-- 		(LDI & R5 & B"1_0000_0000"),
+-- 		(ADD & R5 & R5 & R5 & Tail3),
+-- 		(ADD & R5 & R5 & R5 & Tail3),
+-- 		(ADD & R5 & R5 & R5 & Tail3),
+-- 		(ADD & R5 & R5 & R5 & Tail3),
+-- 		(LDI & R6 & B"0_0010_0000"),
+-- 		(LDI & R3 & B"0_0000_0011"),
+-- 		(ST  & R6 & R3 & Tail3 & Tail3),
+-- 		(LDI & R1 & B"0_0000_0001"),
+-- 		(LDI & R0 & B"0_0000_1110"),
+-- 		(MOV & R2 & R0 & Tail3 & Tail3 ),
+-- 		(ADD & R2 & R2 & R1 & Tail3),
+-- 		(ISUB & R0 & R0 & R1 & Tail3),
+-- 		(BRZ & B"0000_0000_0011"),
+-- 		(NOP & Tail3 & Tail3 & Tail3 & Tail3  ),
+-- 		(BRA & B"0000_1111_1100"),
+-- 		(ST  & R6 & R2 & Tail3 & Tail3),
+-- 		(ST  & R5 & R2 & Tail3 & Tail3),
+-- 		(BRA & B"0000_0000_0000"),
+-- 		(NOP & Tail3 & Tail3 & Tail3 & Tail3  ),
+-- 		(NOP & Tail3 & Tail3 & Tail3 & Tail3  ),
+-- 		others=>(NOP & R0 & R0 & R0 & Tail3)
+-- 		);
+
+-- BEGIN
+-- 	q    <= RAM(to_integer(UNSIGNED(address)));
+
+-- 	altsyncram_component : altsyncram
+-- 	GENERIC MAP (
+-- 		clock_enable_input_a => "BYPASS",
+-- 		clock_enable_output_a => "BYPASS",
+-- 		init_file => "memory.hex",
+-- 		intended_device_family => "Cyclone IV E",
+-- 		lpm_hint => "ENABLE_RUNTIME_MOD=YES,INSTANCE_NAME=RAM",
+-- 		lpm_type => "altsyncram",
+-- 		numwords_a => 256,
+-- 		operation_mode => "SINGLE_PORT",
+-- 		outdata_aclr_a => "NONE",
+-- 		outdata_reg_a => "UNREGISTERED",
+-- 		power_up_uninitialized => "FALSE",
+-- 		read_during_write_mode_port_a => "NEW_DATA_NO_NBE_READ",
+-- 		widthad_a => 8,
+-- 		width_a => 16,
+-- 		width_byteena_a => 1
+-- 	)
+-- 	PORT MAP (
+-- 		address_a => address,
+-- 		clock0 => clock,
+-- 		data_a => data,
+-- 		wren_a => wren,
+-- 		q_a => RAM
+-- 	);
+
+
+
+-- END fake;
