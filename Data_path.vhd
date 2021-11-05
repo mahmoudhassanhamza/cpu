@@ -116,23 +116,25 @@ begin
 
 end process;
 
-BYPASSMUXC:process(temp_QA,D_output1,BypassC)
+BYPASSMUXC:process(temp_QA,D_output1,BypassC,BypassD)
 begin
-    if (BypassC = '1' ) then
+    if (BypassC = '1' and BypassD = '0' ) then
         D_output <= temp_QA;
-        else 
+        elsif(BypassC = '0' and BypassD = '1') then
+        D_output <= temp_QB;
+        else
         D_output <= D_output1;
     end if;
 end process;
 
-BYPASSMUXD:process(temp_QA,D_output1,BypassD)
-begin
-    if (BypassD = '1' ) then
-        D_output <= temp_QB;
-        else 
-        D_output <= D_output1;
-    end if;
-end process;
+-- BYPASSMUXD:process(temp_QA,D_output1,BypassD)
+-- begin
+--     if (BypassD = '1' ) then
+--         D_output <= temp_QB;
+--         else 
+--         D_output <= D_output1;
+--     end if;
+-- end process;
 
 
 RA_sig_ored     <= D_RA_sig or BypassB;
